@@ -652,60 +652,55 @@
             <div class="faq-container">
 
               <div class="faq-item faq-active">
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                <h3>How can I get in touch with your team?</h3>
                 <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
-                    gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                  <p>Want to chat about a project or just have a question? You can reach us through the contact form on our website or by emailing us at info@binarybrixcom. We're always happy to help!.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
 
               <div class="faq-item">
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+                <h3>How do you keep my information safe?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
-                    id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
-                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>Your data is Very  important to us! We use top-notch security measures to protect it, like encryption and strict access controls. We regularly check our systems to make sure everything is safe and sound.
+                </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
 
               <div class="faq-item">
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                <h3>Can I see what you’ve done before?</h3>
                 <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
-                    elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque
-                    eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis
-                    sed odio morbi quis</p>
+                  <p>Absolutely! Check out our website for examples of our work. We’ve got case studies and a portfolio to show you what we can do.
+                </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
 
               <div class="faq-item">
-                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                <h3>How much will my project cost?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
-                    id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
-                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>To get a price for your project, just tell us what you need. We'll set up a chat to learn more about your ideas and give you a detailed estimate.
+                </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
 
               <div class="faq-item">
-                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+                <h3>Will you help me after the project is finished?</h3>
                 <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in.
-                    Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est.
-                    Purus gravida quis blandit turpis cursus in</p>
+                  <p>Yep, we're here to help after your project is live. We'll keep things running smoothly with updates, fixes, and whatever else you need.
+                </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
 
               <div class="faq-item">
-                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                <h3>What makes you different from other companies?
+                </h3>
                 <div class="faq-content">
-                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi.
-                    Distinctio ipsam dolore et.</p>
+                  <p>We’re all about understanding our clients and creating amazing custom software. We’re committed to top-notch customer service and always strive to go above and beyond. Plus, we love trying new things and making sure our software is super reliable.
+                </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
