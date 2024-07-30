@@ -49,3 +49,21 @@ Route::get('/iot-development', function () {
 Route::get('/expert-qa-testing', function () {
     return view('pages.website.services.expert-qa-testing');
 })->name('expert-qa-testing');
+
+// Portfolio Routes
+
+Route::get('/mobile-spendsail', function() {
+    return view('pages.website.portfolio.portfolio-details-mobile-spendsail');
+})->name('mobile-spendsail');
+
+Route::get('/mobile-tropical', function() {
+    return view('pages.website.portfolio.portfolio-details-mobile-tropical-bound');
+})->name('mobile-tropical');
+
+Route::get('/web-spendsail', function() {
+    return view('pages.website.portfolio.portfolio-details-web-spendsail');
+})->name('web-spendsail');
+
+Route::get('/web-tropical', function() {
+    return view('pages.website.portfolio.portfolio-details-web-tropicalbound');
+})->name('web-tropical');

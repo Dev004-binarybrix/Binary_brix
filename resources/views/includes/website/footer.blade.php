@@ -25,13 +25,19 @@
             <img src="./assets/img/brixLogo.png" height="35px">
           </a>
           <div class="footer-contact pt-3">
-            <p><strong>Address:</strong> 55th Avenue </p>
-            <p>Thokar Niaz Baig</p>
-
-            <p>Lahore,Punjab 53700, Pakistan</p>
+            <p><strong>Address:</strong>
+                <a href="https://www.google.com/maps?q=55th+Avenue,+Thokar+Niaz+Baig,+Lahore,+Punjab+53700,+Pakistan" target="_blank">
+                    <span class="span">55th Avenue</span>, <span>Thokar Niaz Baig</span>
+                    <span>Lahore, Punjab 53700, Pakistan</span>
+                </a>
+            </p>
             <p class="mt-3"><strong>Phone:</strong> <span>+92-4235963555</span></p>
-            <p><strong>Email:</strong> <span>info@binarybrix.com</span></p>
-          </div>
+            <p><strong>Email:</strong>
+                <a href="mailto:info@binarybrix.com">
+                    <span>info@binarybrix.com</span>
+                </a>
+            </p>
+        </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">

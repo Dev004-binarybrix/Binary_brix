@@ -177,100 +177,100 @@
     <section id="portfolio" class="portfolio section">
 
 
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p><span>Check Our&nbsp;</span> <span class="description-title">Portfolio</span></p>
-      </div>
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Portfolio</h2>
+          <p><span>Check Our&nbsp;</span> <span class="description-title">Portfolio</span></p>
+        </div>
 
-      <div class="container">
+        <div class="container">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
 
-            <!-- .filter-app is mobile -->
-            <!-- filter product is web -->
-            <!-- filter branding design -->
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Mobile</li>
-            <li data-filter=".filter-product">Web</li>
-            <li data-filter=".filter-branding">Design</li>
-          </ul>
+              <!-- .filter-app is mobile -->
+              <!-- filter product is web -->
+              <!-- filter branding design -->
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Mobile</li>
+              <li data-filter=".filter-product">Web</li>
+              <li data-filter=".filter-branding">Design</li>
+            </ul>
 
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="100">
-            <!-- Mobile -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolios/mobileSpendSail.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>SpendSail Mobile Application</h4>
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="100">
+              <!-- Mobile -->
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <img src="assets/img/portfolios/mobileSpendSail.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>SpendSail Mobile Application</h4>
 
 
-                <a href="./portfolioDetails/portfolio-details-mobile-spendsail.html" title="More Details"
-                  class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('mobile-spendsail') }}" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
+
+              <!-- Web -->
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <img src="assets/img/portfolios/webTropicalBound.png" class="img-fluid" alt="">
+
+                <div class="portfolio-info">
+                  <h4>Tropical Bound Web Application</h4>
+
+
+                  <a href="{{ route('web-tropical') }}" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+
+
+
+
+              <!-- Mobile -->
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <img src="assets/img/portfolios/mobileTropicalBound.png" class="img-fluid" alt="">
+
+                <div class="portfolio-info">
+                  <h4>Tropical Bound Mobile Application</h4>
+
+
+                  <a href="{{ route('mobile-tropical') }}" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+
+
+              <!-- Web -->
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <img src="assets/img/portfolios/webSpendsail.png" class="img-fluid" alt="">
+
+                <div class="portfolio-info">
+                  <h4>SpendSail Web Application </h4>
+                  <a href="{{ route('web-spendsail') }}" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+
+              <!-- Design
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                <img src="assets/img/portfolios/web-spendsail.jpg" class="img-fluid" alt="">
+
+                <div class="portfolio-info">
+                  <h4>Branding 3</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2"
+                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div> -->
             </div>
-
-            <!-- Web -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolios/webTropicalBound.png" class="img-fluid" alt="">
-
-              <div class="portfolio-info">
-                <h4>Tropical Bound Web Application</h4>
-
-
-                <a href="./portfolioDetails/portfolio-details-web-tropicalbound.html" title="More Details"
-                  class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-
-
-
-
-
-            <!-- Mobile -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolios/mobileTropicalBound.png" class="img-fluid" alt="">
-
-              <div class="portfolio-info">
-                <h4>Tropical Bound Mobile Application</h4>
-
-
-                <a href="./portfolioDetails/portfolio-details-mobile-tropical-bound.html" title="More Details"
-                  class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-
-
-
-            <!-- Web -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolios/webSpendsail.png" class="img-fluid" alt="">
-
-              <div class="portfolio-info">
-                <h4>SpendSail Web Application </h4>
-                <a href="./portfolioDetails/portfolio-details-web-spendsail.html" title="More Details"
-                  class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-
-            <!-- Design
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/portfolios/web-spendsail.jpg" class="img-fluid" alt="">
-
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2"
-                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div> -->
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
 
     <section id="testimonials" class="testimonials section dark-background">
