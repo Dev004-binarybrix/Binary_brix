@@ -118,7 +118,9 @@
 
     <section id="clients" class="clients section light-background">
 
-      <div class="container">
+      <div class="container" style="
+      height: 120px;
+  " >
 
         <div class="swiper init-swiper">
           <script type="application/json" class="swiper-config">

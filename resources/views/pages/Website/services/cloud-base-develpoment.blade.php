@@ -5,13 +5,8 @@
 <main class="main">
     <!-- Service Details Section -->
     <section id="service-details" class="service-details section">
-
         <div class="container">
-
             <div class="row gy-4">
-
-
-
                 <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
                     <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
                     <h3>Cloud Based Development
