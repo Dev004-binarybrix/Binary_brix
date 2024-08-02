@@ -49,7 +49,7 @@
             <li><a href="{{ url('/') }}#contact">Contact</a></li>
             <li><a href="{{ url('/') }}#about">About</a></li>
 
-            <li><a href="#team">Team</a></li>
+            <li><a href="{{ url('/') }}#team">Team</a></li>
 
 
           </ul>
