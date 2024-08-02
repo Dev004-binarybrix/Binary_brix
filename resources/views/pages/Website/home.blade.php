@@ -573,11 +573,10 @@
               </div>
 
               <div class="faq-item">
-                <h3>How do you keep my information safe?
-                </h3>
+                <h3>How do you keep my information safe?</h3>
                 <div class="faq-content">
-                  <p>Your data is Very  important to us! We use top-notch security measures to protect it,
-                    like encryption and strict access controls. We regularly check our systems to make sure everything is safe and sound.</p>
+                  <p>Your data is Very  important to us! We use top-notch security measures to protect it, like encryption and strict access controls. We regularly check our systems to make sure everything is safe and sound.
+                </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
@@ -585,8 +584,8 @@
               <div class="faq-item">
                 <h3>Can I see what you’ve done before?</h3>
                 <div class="faq-content">
-                  <p>Absolutely! Check out our website for examples of our work.
-                    We’ve got case studies and a portfolio to show you what we can do.</p>
+                  <p>Absolutely! Check out our website for examples of our work. We’ve got case studies and a portfolio to show you what we can do.
+                </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
@@ -594,8 +593,8 @@
               <div class="faq-item">
                 <h3>How much will my project cost?</h3>
                 <div class="faq-content">
-                  <p>To get a price for your project, just tell us what you need.
-                    We'll set up a chat to learn more about your ideas and give you a detailed estimate.</p>
+                  <p>To get a price for your project, just tell us what you need. We'll set up a chat to learn more about your ideas and give you a detailed estimate.
+                </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
@@ -603,26 +602,18 @@
               <div class="faq-item">
                 <h3>Will you help me after the project is finished?</h3>
                 <div class="faq-content">
-                  <p>Yep, we're here to help after your project is live.
-                    We'll keep things running smoothly with updates, fixes, and whatever else you need.</p>
+                  <p>Yep, we're here to help after your project is live. We'll keep things running smoothly with updates, fixes, and whatever else you need.
+                </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
 
               <div class="faq-item">
-                <h3>What makes you different from other companies?</h3>
-                <div class="faq-content">
-                  <p>We’re all about understanding our clients and creating amazing custom software.
-                    We’re committed to top-notch customer service and always strive to go above and beyond. Plus, we love trying new things and making sure our software is super reliable.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div>
-              <div class="faq-item">
-                <h3>How do you make sure your software is great?
+                <h3>What makes you different from other companies?
                 </h3>
                 <div class="faq-content">
-                  <p>We follow the best practices in the industry to make sure our software is top-notch.
-                    We test everything carefully, review our code, and use the latest tools. Our goal is to create software that's reliable, secure, and super fast.</p>
+                  <p>We’re all about understanding our clients and creating amazing custom software. We’re committed to top-notch customer service and always strive to go above and beyond. Plus, we love trying new things and making sure our software is super reliable.
+                </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div>
