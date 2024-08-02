@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\ContactMail;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\ContactInfo;
 use Mail;
 
 class ContactController extends Controller
@@ -18,7 +19,8 @@ class ContactController extends Controller
             'message' => 'required|string',
         ]);
 
-        
+        ContactInfo::create($data);
+
         try {
             Mail::to('ummyhabiba999@gmail.com')->send(new ContactMail($data));
             return response()->json(['success' => true, 'message' => 'Thankyou for contacting us!']);
