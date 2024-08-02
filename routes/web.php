@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view('pages.website.home');
@@ -46,6 +47,10 @@ Route::get('/iot-development', function () {
     return view('pages.website.services.iot');
 })->name('iot-development');
 
+Route::get('/ai-and-machine-learning', function () {
+    return view('pages.website.services.machine-learning');
+})->name('machine-learning');
+
 Route::get('/expert-qa-testing', function () {
     return view('pages.website.services.expert-qa-testing');
 })->name('expert-qa-testing');
@@ -67,3 +72,7 @@ Route::get('/web-spendsail', function() {
 Route::get('/web-tropical', function() {
     return view('pages.website.portfolio.portfolio-details-web-tropicalbound');
 })->name('web-tropical');
+
+
+
+Route::post('/contact/send', [ContactController::class, 'contactMail'])->name('contact.send');

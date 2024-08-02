@@ -41,6 +41,7 @@
                     <li><a href="{{ route('e-commerce') }}">E-commerce Development</a></li>
                     <li><a href="{{ route('ui-ux-design') }}">UI/UX Design and Development</a></li>
                     <li><a href="{{ route('iot-development') }}">IoT Development</a></li>
+                    <li><a href="{{ route('machine-learning') }}">Artificial Intelligence & Machine Learning</a></li>
                     <li><a href="{{ route('expert-qa-testing') }}">Expert QA Testing</a></li>
                 </ul>
             </li>

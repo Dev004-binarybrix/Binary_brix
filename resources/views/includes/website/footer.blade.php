@@ -21,12 +21,12 @@
     <div class="container footer-top light-background">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="d-flex align-items-center">
+          <a href="{{ url('/') }}" class="d-flex align-items-center">
             <img src="./assets/img/brixLogo.png" height="35px">
           </a>
           <div class="footer-contact pt-3">
             <p><strong>Address:</strong>
-                <a href="https://www.google.com/maps?q=55th+Avenue,+Thokar+Niaz+Baig,+Lahore,+Punjab+53700,+Pakistan" target="_blank">
+                <a href="https://maps.app.goo.gl/buWUT8aBCGZGg171A" target="_blank">
                     <span class="span">55th Avenue</span>, <span>Thokar Niaz Baig</span>
                     <span>Lahore, Punjab 53700, Pakistan</span>
                 </a>
