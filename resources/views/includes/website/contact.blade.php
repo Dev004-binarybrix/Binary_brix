@@ -116,7 +116,8 @@ $(document).ready(function() {
       data: form.serialize(),
       success: function(response) {
 
-        loadingElement.remove();
+        $('.loading').removeClass('d-block');
+
         if (response.success) {
           sentMessageElement.text(response.message).show();
           form[0].reset();
@@ -127,15 +128,12 @@ $(document).ready(function() {
         }
       },
       error: function() {
-        loadingElement.hide();
+        
+        $('.loading').removeClass('d-block');
+
         errorMessageElement.text('An error occurred. Please try again later.').show();
 
       }
-    });
-
-    $('#contactForm').submit(function() {
-      loadingElement = $('<div class="loading">Loading</div>');
-      $('#contactForm').prepend(loadingElement);
     });
 
   });

@@ -18,6 +18,7 @@ class ContactController extends Controller
             'message' => 'required|string',
         ]);
 
+        
         try {
             Mail::to('ummyhabiba999@gmail.com')->send(new ContactMail($data));
             return response()->json(['success' => true, 'message' => 'Thankyou for contacting us!']);
