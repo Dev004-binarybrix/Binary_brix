@@ -13,6 +13,6 @@ class ContactInfo extends Model
         'name',
         'email',
         'subject',
-        'description'
+        'message'
     ];
 }
