@@ -7,14 +7,55 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-            <h1 class="fs-1">Empowering businesses with <span>Software Solutions</span></h1>
+            <h4>We Are</h4>
+            <h1 class="fs-1"> <span>Software Development Company</span></h1>
+            <p>
+                Blending strategic insights and thoughtful design with brilliant engineering,
+                we create robust technical solutions that deliver digital transformation at scale.
+
+            </p>
             <div class="d-flex mt-4">
-              <a href="#contact" class="btn-get-started fw-bold rounded-pill">Get in Touch</a>
+              <a href="#contact" class="btn-get-started fw-bold rounded-pill" >Let’s Work Together</a>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    {{-- my code starts --}}
+
+    {{-- <div class="container">
+        <div class="card-deck">
+        <div class="card mt-3" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+            </div>
+          </div>
+          <div class="card mt-3" style="width: 18rem; height: 25rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+            </div>
+          </div>
+          <div class="card mt-3" style="width: 18rem; height: 25rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+            </div>
+          </div>
+
+        </div>
+    </div> --}}
+
+
+{{-- my code end --}}
 
     <section id="services" class="services section">
       <div class="container section-title" data-aos="fade-up">
@@ -300,16 +341,15 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h3>Matt Brandon</h3>
+                <h4>United Kingdom</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
-                    Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <span>BinaryBrix delivered EXCEPTIONAL work with keen attention to detail and unmatched professionalism in software development. Working with the BinaryBrix Team was a breeze; proactive communication, politeness, and cooperation were top-notch. Highly recommend!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -318,16 +358,15 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>Sara Johnson</h3>
+                <h4>United States</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
-                    malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <span>Outstanding work from BinaryBrix Team! They managed the custom knowledge base feature with great output.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -336,16 +375,15 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <h3>Michael Brown</h3>
+                <h4>United Kingdom</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
-                    minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <span>Fantastic work. Will not hesitate to work with them again.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -354,17 +392,15 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <h3>Jessica William</h3>
+                <h4>United States</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim
-                    velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum
-                    veniam.</span>
+                  <span>Everything was great! Thanks to BinaryBrix for their excellent work.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -373,21 +409,87 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <h3>David Garcia</h3>
+                <h4>Belgium</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
-                    culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
-                    quid.</span>
+                  <span>Thanks for the excellent integration of the API in my software. It works very well. We will surely work together again on the next project. Meanwhile, I recommend BinaryBrix for any other job related to working with API integrations.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
             </div>
+
+            <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>Vasilis Ioannou</h3>
+                  <h4>Greece</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Great cooperation with BinaryBrix Team once again - delivered everything as expected.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>Jorge Banda</h3>
+                  <h4>United States</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>BinaryBrix is a great company. Very professional and produces top-quality work. Will be working with them more in the future.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>Diana Lee</h3>
+                  <h4>United States</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Remarkable service! BinaryBrix helped me conquer a chatbot integration challenge that had me stumped for a week. Astonishingly, they managed to solve it in just a single day! Their expertise and efficiency are truly commendable. Highly recommend BinaryBrix for any AI-related projects. Thank you for your outstanding support! Look forward to working with you on future projects!</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>Kevin Tylor</h3>
+                  <h4>United States</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>BinaryBrix was quick and knowledgeable. They went above and beyond to improve our software in order to minimize bottlenecks in my process.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
 
           </div>
           <div class="swiper-pagination"></div>
@@ -419,34 +521,30 @@
 
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <div class="about-content ps-0 ps-lg-3">
-              <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+              <h3>About BinaryBrix</h3>
               <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua.
+                At BinaryBrix Pvt Ltd, we provide top-notch software solutions tailored to your business needs.
+                Our services include custom software development, web and mobile applications, and advanced AI technology.
               </p>
               <ul>
                 <li>
                   <i class="bi bi-diagram-3"></i>
                   <div>
-                    <h4>Ullamco laboris nisi ut aliquip consequat</h4>
-                    <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                    <h4>What We Do</h4>
+                    <p>Our team of experts focuses on creating innovative and effective solutions to help your business grow and succeed. From developing custom software to integrating mobile apps, we deliver high-quality results that make a difference.
+                    </p>
                   </div>
                 </li>
                 <li>
                   <i class="bi bi-fullscreen-exit"></i>
                   <div>
-                    <h4>Magnam soluta odio exercitationem reprehenderi</h4>
-                    <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
+                    <h4>Why Choose Us</h4>
+                    <p>We are dedicated to understanding your challenges and providing solutions that exceed your expectations. With a proven track record of successful projects, we are committed to being your trusted technology partner.</p>
                   </div>
                 </li>
               </ul>
               <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                in
-                culpa qui officia deserunt mollit anim id est laborum
+                Contact us to learn more about our services and how we can assist you in achieving your goals.
               </p>
             </div>
 
@@ -474,12 +572,12 @@
             <div class="team-member">
               <div class="member-img">
                 <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                <div class="social">
+                {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
               </div>
               <div class="member-info">
                 <h4>Walter White</h4>
@@ -492,12 +590,12 @@
             <div class="team-member">
               <div class="member-img">
                 <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
+                {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
               </div>
               <div class="member-info">
                 <h4>Hania Mazhar Dar</h4>
@@ -510,12 +608,12 @@
             <div class="team-member">
               <div class="member-img">
                 <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
+                {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
               </div>
               <div class="member-info">
                 <h4>Umer Khaliq</h4>
@@ -528,16 +626,34 @@
             <div class="team-member">
               <div class="member-img">
                 <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
+                {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
               </div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
+                <h4>Zumra Majeed</h4>
+                <span>HR Manager</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="">
+                {{-- <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div> --}}
+              </div>
+              <div class="member-info">
+                <h4>Shezil Khan</h4>
+                <span>HR Manager</span>
               </div>
             </div>
           </div>

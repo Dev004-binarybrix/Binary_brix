@@ -128,7 +128,7 @@ $(document).ready(function() {
         }
       },
       error: function() {
-        
+
         $('.loading').removeClass('d-block');
 
         errorMessageElement.text('An error occurred. Please try again later.').show();
