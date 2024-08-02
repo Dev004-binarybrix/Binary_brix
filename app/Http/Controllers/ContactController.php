@@ -6,7 +6,7 @@ use App\Mail\ContactMail;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\ContactInfo;
-use Mail;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -22,7 +22,7 @@ class ContactController extends Controller
         ContactInfo::create($data);
 
         try {
-            Mail::to('info@binarybrix.com')->send(new ContactMail($data));
+               Mail::to('info@binarybrix.com')->send(new ContactMail($data));
             return response()->json(['success' => true, 'message' => 'Thankyou for contacting us!']);
         } catch (\Exception $e) {
             return response()->json(['success' => false, 'message' => 'Failed to send message.'], 500);
