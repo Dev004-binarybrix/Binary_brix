@@ -79,7 +79,7 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="service-item position-relative">
                     <div class="icon">
-                        <i class="bi bi-chat-square-text"></i>
+                        <i class="bi bi-shop"></i> <!-- Icon for E-commerce Development -->
                     </div>
                     <a href="{{ route('e-commerce') }}" class="stretched-link">
                         <h3>E-commerce Development</h3>
@@ -90,7 +90,7 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="service-item position-relative">
                     <div class="icon">
-                        <i class="bi bi-chat-square-text"></i>
+                        <i class="bi bi-pencil-square"></i> <!-- Icon for UI/UX Design and Development -->
                     </div>
                     <a href="{{ route('ui-ux-design') }}" class="stretched-link">
                         <h3>UI/UX Design and Development</h3>
@@ -101,10 +101,10 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="service-item position-relative">
                     <div class="icon">
-                        <i class="bi bi-chat-square-text"></i>
+                        <i class="bi bi-layers"></i> <!-- Icon for IoT Development -->
                     </div>
                     <a href="{{ route('iot-development') }}" class="stretched-link">
-                        <h3>IOT Development</h3>
+                        <h3>IoT Development</h3>
                     </a>
                 </div>
             </div>
@@ -112,7 +112,7 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="service-item position-relative">
                     <div class="icon">
-                        <i class="bi bi-chat-square-text"></i>
+                        <i class="bi bi-controller"></i> <!-- Icon for Games Development -->
                     </div>
                     <a href="{{ route('high-tech-game') }}" class="stretched-link">
                         <h3>Games Development</h3>
@@ -123,14 +123,13 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="service-item position-relative">
                     <div class="icon">
-                        <i class="bi bi-chat-square-text"></i>
+                        <i class="bi bi-tools"></i> <!-- Icon for QA and Testing -->
                     </div>
                     <a href="{{ route('expert-qa-testing') }}" class="stretched-link">
                         <h3>QA and Testing</h3>
                     </a>
                 </div>
             </div>
-
         </div>
 
     </div>
