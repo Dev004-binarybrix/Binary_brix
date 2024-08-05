@@ -65,13 +65,33 @@
                 <label for="email-field" class="pb-2">Your Email:</label>
                 <input type="email" class="form-control" name="email" id="email-field" required="">
               </div>
+              <div class="col-md-6">
+                <label for="subject-field" class="pb-2">Phone Number</label>
+                <input type="text" class="form-control" name="number" id="number" required="" oninput="validateNumber(this)">
+              </div>
+              <div class="col-md-6">
+                <label for="name-field" class="pb-2">Company</label>
+                <input type="text" name="company" id="name-field" class="form-control" required="">
 
-              
-
-              <div class="col-md-12">
-                <label for="subject-field" class="pb-2">Subject</label>
+              </div>
+              <div class="col-md-6">
+                <label for="subject-field" class="pb-2">Job Title</label>
                 <input type="text" class="form-control" name="subject" id="subject-field" required="">
               </div>
+
+              <div class="col-md-6">
+                <label for="subject-field" class="pb-2">How did you hear about us?</label>
+                <select class="form-control" name="subject" id="subject-field" required="">
+                    <option value="" disabled selected>Choose an option</option>
+                    <option value="bank">Bank</option>
+                    <option value="network">Network</option>
+                    <option value="partner-company">Partner Company</option>
+                    <option value="conference-tradeshow">Conference/Tradeshow</option>
+                    <option value="email-received">Email Received</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
 
               <div class="col-md-12">
                 <label for="message-field" class="pb-2">Additional Information you would like us to know</label>
@@ -83,7 +103,7 @@
                 {{-- <div class="error-message"></div> --}}
                 <div class="sent-message">Your Message has been sent successfully</div>
 
-                <button type="submit">Send Message</button>
+                <button type="submit">Submit</button>
               </div>
 
             </div>
@@ -146,3 +166,13 @@ $(document).ready(function() {
   });
 });
 </script>
+
+<script>
+    function validateNumber(input) {
+        const value = input.value;
+        const validValue = value.replace(/[^0-9]/g, ''); // Remove non-numeric characters
+        if (value !== validValue) {
+            input.value = validValue; // Update the input field with only numbers
+        }
+    }
+    </script>
