@@ -5,10 +5,6 @@
 
 
 <main class="main">
-
-
-
-
     <section id="services" class="services section ">
       <div class="container section-title" data-aos="fade-up">
         <h2>All Services</h2>

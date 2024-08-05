@@ -74,6 +74,7 @@
             <a href="https://www.facebook.com/binarybrix" target="_blank"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/binarybrix/" target="blank"><i class="bi bi-instagram"></i></a>
             <a href="https://www.linkedin.com/company/binarybrix/" target="blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://wa.me/923122166633" target="_blank"><i class="bi bi-whatsapp"></i></a> 
           </div>
         </div>
 

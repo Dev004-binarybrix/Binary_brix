@@ -15,6 +15,7 @@
               class="bi bi-instagram"></i></a>
           <a href="https://www.linkedin.com/company/binarybrix/mycompany/" target="blank" class="linkedin"><i
               class="bi bi-linkedin"></i></a>
+              <a href="https://wa.me/923122166633" target="_blank" class="whatsapp" ><i class="bi bi-whatsapp"></i></a>
         </div>
       </div>
     </div>

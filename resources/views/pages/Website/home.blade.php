@@ -102,12 +102,6 @@
         </div>
       </div>
     </section>
-
-
-
-
-
-
     <section id="stats" class="stats section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="50">
@@ -422,75 +416,6 @@
                 </p>
               </div>
             </div>
-
-            <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>Vasilis Ioannou</h3>
-                  <h4>Greece</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Great cooperation with BinaryBrix Team once again - delivered everything as expected.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>Jorge Banda</h3>
-                  <h4>United States</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>BinaryBrix is a great company. Very professional and produces top-quality work. Will be working with them more in the future.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>Diana Lee</h3>
-                  <h4>United States</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Remarkable service! BinaryBrix helped me conquer a chatbot integration challenge that had me stumped for a week. Astonishingly, they managed to solve it in just a single day! Their expertise and efficiency are truly commendable. Highly recommend BinaryBrix for any AI-related projects. Thank you for your outstanding support! Look forward to working with you on future projects!</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>Kevin Tylor</h3>
-                  <h4>United States</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>BinaryBrix was quick and knowledgeable. They went above and beyond to improve our software in order to minimize bottlenecks in my process.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -568,6 +493,47 @@
 
         <div class="row gy-4">
 
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                <div class="team-member">
+                  <div class="member-img">
+                    <img src="assets/img/team/default.jpg" class="img-fluid" alt="">
+                    {{-- <div class="social">
+                      <a href=""><i class="bi bi-twitter-x"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div> --}}
+                  </div>
+                  <div class="member-info">
+                    <h4>Muhammad Shahbaz Yousaf</h4>
+                    <span>CEO</span>
+                  </div>
+                </div>
+              </div>
+
+
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                <div class="team-member">
+                  <div class="member-img">
+                    <img src="assets/img/team/default.jpg" class="img-fluid" alt="">
+                    {{-- <div class="social">
+                      <a href=""><i class="bi bi-twitter-x"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div> --}}
+                  </div>
+                  <div class="member-info">
+                    <h4>Umer Khaliq</h4>
+                    <span>CTO</span>
+                  </div>
+                </div>
+              </div>
+
+
+
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="member-img">
@@ -585,11 +551,10 @@
               </div>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="">
                 {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -598,26 +563,8 @@
                 </div> --}}
               </div>
               <div class="member-info">
-                <h4>Hania Mazhar Dar</h4>
-                <span>Product Manager</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/default.jpg" class="img-fluid" alt="">
-                {{-- <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> --}}
-              </div>
-              <div class="member-info">
-                <h4>Umer Khaliq</h4>
-                <span>CTO</span>
+                <h4>Shezil Khan</h4>
+                <span>HR Manager</span>
               </div>
             </div>
           </div>
@@ -640,10 +587,10 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
                 {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -652,11 +599,14 @@
                 </div> --}}
               </div>
               <div class="member-info">
-                <h4>Shezil Khan</h4>
-                <span>HR Manager</span>
+                <h4>Hania Mazhar Dar</h4>
+                <span>Project Manager</span>
               </div>
             </div>
           </div>
+
+
+
 
         </div>
 
