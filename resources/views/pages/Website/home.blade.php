@@ -507,7 +507,7 @@
                   </div>
                   <div class="member-info">
                     <h4>Muhammad Shahbaz Yousaf</h4>
-                    <span>CEO</span>
+                    <span>Chief Executive Officer</span>
                   </div>
                 </div>
               </div>
@@ -527,7 +527,7 @@
                   </div>
                   <div class="member-info">
                     <h4>Umer Khaliq</h4>
-                    <span>CTO</span>
+                    <span>Chief Technical Officer</span>
                   </div>
                 </div>
               </div>
