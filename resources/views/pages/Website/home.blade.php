@@ -57,9 +57,9 @@
 
 {{-- my code end --}}
 
-    <section id="services" class="services section">
+    <section id=" services" class="services section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
+        <h2>Our Services</h2>
         <p class="text-capitalize"><span>What Would You Like to </span> <span class="description-title">get done?</span>
         </p>
       </div>
@@ -386,7 +386,7 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Jessica William</h3>
+                <h3>Kevin Taylor</h3>
                 <h4>United States</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -432,7 +432,7 @@
 
 
       <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
+        <h2>About Us</h2>
         <p><span>Find Out More</span> <span class="description-title">About Us</span></p>
       </div>
 
@@ -484,7 +484,7 @@
 
 
       <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
+        <h2> Our Team</h2>
         <p><span>Our Hardworking</span> <span class="description-title">Team</span></p>
 
       </div>

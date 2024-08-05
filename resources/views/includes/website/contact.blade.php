@@ -2,7 +2,7 @@
 
 
     <div class="container section-title" data-aos="fade-up">
-      <h2>Contact</h2>
+      <h2>Contact Us</h2>
       <p><span>How Can We</span> <span class="description-title">Help You?</span></p>
     </div>
 
@@ -57,14 +57,16 @@
             <div class="row gy-4">
 
               <div class="col-md-6">
-                <label for="name-field" class="pb-2">Your Name</label>
+                <label for="name-field" class="pb-2">Your Name:</label>
                 <input type="text" name="name" id="name-field" class="form-control" required="">
               </div>
 
               <div class="col-md-6">
-                <label for="email-field" class="pb-2">Your Email</label>
+                <label for="email-field" class="pb-2">Your Email:</label>
                 <input type="email" class="form-control" name="email" id="email-field" required="">
               </div>
+
+              
 
               <div class="col-md-12">
                 <label for="subject-field" class="pb-2">Subject</label>
@@ -72,7 +74,7 @@
               </div>
 
               <div class="col-md-12">
-                <label for="message-field" class="pb-2">Message</label>
+                <label for="message-field" class="pb-2">Additional Information you would like us to know</label>
                 <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
               </div>
 
@@ -120,6 +122,11 @@ $(document).ready(function() {
 
         if (response.success) {
           sentMessageElement.text(response.message).show();
+
+          setTimeout(function() {
+            sentMessageElement.fadeOut();
+          }, 2000);
+
           form[0].reset();
         } else {
           loadingElement.hide();
