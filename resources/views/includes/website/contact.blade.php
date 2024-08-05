@@ -170,9 +170,9 @@ $(document).ready(function() {
 <script>
     function validateNumber(input) {
         const value = input.value;
-        const validValue = value.replace(/[^0-9]/g, ''); // Remove non-numeric characters
+        const validValue = value.replace(/[^0-9]/g, '');
         if (value !== validValue) {
-            input.value = validValue; // Update the input field with only numbers
+            input.value = validValue; 
         }
     }
     </script>

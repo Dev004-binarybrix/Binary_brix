@@ -613,86 +613,99 @@
       </div>
 
     </section>
-    <section id="faq" class="faq section ">
-
-
-      <div class="container section-title" data-aos="fade-up">
-        <h2>F.A.Q</h2>
-        <p><span>Frequently Asked</span> <span class="description-title">Questions</span></p>
-      </div>
-
-      <div class="container">
-
-        <div class="row justify-content-center">
-
-          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="faq-container">
-
-              <div class="faq-item faq-active">
-                <h3>How can I get in touch with your team?</h3>
-                <div class="faq-content">
-                  <p>Want to chat about a project or just have a question? You can reach us through
-                    the contact form on our website or by emailing us at info@binarybrixcom. We're always happy to help!</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div>
-
-              <div class="faq-item">
-                <h3>How do you keep my information safe?</h3>
-                <div class="faq-content">
-                  <p>Your data is Very  important to us! We use top-notch security measures to protect it, like encryption and strict access controls. We regularly check our systems to make sure everything is safe and sound.
-                </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div>
-
-              <div class="faq-item">
-                <h3>Can I see what you’ve done before?</h3>
-                <div class="faq-content">
-                  <p>Absolutely! Check out our website for examples of our work. We’ve got case studies and a portfolio to show you what we can do.
-                </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div>
-
-              <div class="faq-item">
-                <h3>How much will my project cost?</h3>
-                <div class="faq-content">
-                  <p>To get a price for your project, just tell us what you need. We'll set up a chat to learn more about your ideas and give you a detailed estimate.
-                </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div>
-
-              <div class="faq-item">
-                <h3>Will you help me after the project is finished?</h3>
-                <div class="faq-content">
-                  <p>Yep, we're here to help after your project is live. We'll keep things running smoothly with updates, fixes, and whatever else you need.
-                </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div>
-
-              <div class="faq-item">
-                <h3>What makes you different from other companies?
-                </h3>
-                <div class="faq-content">
-                  <p>We’re all about understanding our clients and creating amazing custom software. We’re committed to top-notch customer service and always strive to go above and beyond. Plus, we love trying new things and making sure our software is super reliable.
-                </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div>
-
-            </div>
-
-          </div>
-
+    <section id="faq" class="faq section">
+        <div class="container section-title" data-aos="fade-up">
+            <h2>F.A.Q</h2>
+            <p><span>Frequently Asked</span> <span class="description-title">Questions</span></p>
         </div>
 
-      </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+                    <div class="accordion" id="accordionFAQ">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How can I get in touch with your team?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body">
+                                    Want to chat about a project or just have a question? You can reach us through the contact form on our website or by emailing us at info@binarybrix.com. We're always happy to help!
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How do you keep my information safe?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body">
+                                    Your data is very important to us! We use top-notch security measures to protect it, like encryption and strict access controls. We regularly check our systems to make sure everything is safe and sound.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Can I see what you’ve done before?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body">
+                                    Absolutely! Check out our website for examples of our work. We’ve got case studies and a portfolio to show you what we can do.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    How much will my project cost?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body">
+                                    To get a price for your project, just tell us what you need. We'll set up a chat to learn more about your ideas and give you a detailed estimate.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Will you help me after the project is finished?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body">
+                                    Yep, we're here to help after your project is live. We'll keep things running smoothly with updates, fixes, and whatever else you need.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    What makes you different from other companies?
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body">
+                                    We’re all about understanding our clients and creating amazing custom software. We’re committed to top-notch customer service and always strive to go above and beyond. Plus, we love trying new things and making sure our software is super reliable.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
 </main>
 @endsection
 
