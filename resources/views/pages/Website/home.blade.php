@@ -468,9 +468,11 @@
                   </div>
                 </li>
               </ul>
-              <p>
-                Contact us to learn more about our services and how we can assist you in achieving your goals.
-              </p>
+
+                <p>
+                    <a href="{{ url('/')}}#contact">Contact us</a> to learn more about our services and how we can assist you in achieving your goals.
+                </p>
+
             </div>
 
           </div>

@@ -31,7 +31,7 @@ class ContactMail extends Mailable
     public function envelope(): Envelope
 {
     return new Envelope(
-        subject: 'BinaryBrix-Support - ' . $this->data['subject'],
+        subject: 'BinaryBrix-Support - ',
         from: new Address('ummyhabiba999@gmail.com', 'Support Team')
     );
 }
