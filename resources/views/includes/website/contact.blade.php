@@ -2,7 +2,7 @@
 
 
     <div class="container section-title" data-aos="fade-up">
-      <h2>Contact</h2>
+      <h2>Contact Us</h2>
       <p><span>How Can We</span> <span class="description-title">Help You?</span></p>
     </div>
 
@@ -12,7 +12,7 @@
 
         <div class="col-lg-5">
 
-          <div class="info-wrap">
+          <div class="info-wrap h-100">
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
@@ -27,7 +27,7 @@
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Us</h3>
-                <p>(042)-35963555</p>
+                <p>+92-4235-963-555</p>
               </div>
             </div>
 
@@ -57,22 +57,43 @@
             <div class="row gy-4">
 
               <div class="col-md-6">
-                <label for="name-field" class="pb-2">Your Name</label>
+                <label for="name-field" class="pb-2"><strong>Your Name</strong></label>
                 <input type="text" name="name" id="name-field" class="form-control" required="">
               </div>
 
               <div class="col-md-6">
-                <label for="email-field" class="pb-2">Your Email</label>
+                <label for="email-field" class="pb-2"><strong>Your Email</strong></label>
                 <input type="email" class="form-control" name="email" id="email-field" required="">
               </div>
+              <div class="col-md-6">
+                <label for="subject-field" class="pb-2"><strong>Phone Number</strong></label>
+                <input type="text" class="form-control" name="phone" id="phone" required="" oninput="validateNumber(this)">
+              </div>
+              <div class="col-md-6">
+                <label for="name-field" class="pb-2"><strong>Company</strong></label>
+                <input type="text" name="company" id="company" class="form-control" required="">
 
-              <div class="col-md-12">
-                <label for="subject-field" class="pb-2">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject-field" required="">
+              </div>
+              <div class="col-md-6">
+                <label for="subject-field" class="pb-2"><strong>Job Title</strong></label>
+                <input type="text" class="form-control" name="job" id="job" required="">
               </div>
 
+              <div class="col-md-6">
+                <label for="subject-field" class="pb-2"><strong>How did you hear about Binary Brix?</strong></label>
+                <select class="form-control" name="hear_about_us" id="hear_about_us" required="">
+                    <option value="" disabled selected><strong>Choose an option</strong></option>
+                    <option value="bank">Bank</option>
+                    <option value="network">Network</option>
+                    <option value="partner-company">Partner Company</option>
+                    <option value="conference-tradeshow">Conference/Tradeshow</option>
+                    <option value="email-received">Email Received</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
               <div class="col-md-12">
-                <label for="message-field" class="pb-2">Message</label>
+                <label for="message-field" class="pb-2"><strong>Additional Information you would like us to know</strong></label>
                 <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
               </div>
 
@@ -81,7 +102,7 @@
                 {{-- <div class="error-message"></div> --}}
                 <div class="sent-message">Your Message has been sent successfully</div>
 
-                <button type="submit">Send Message</button>
+                <button type="submit">Submit</button>
               </div>
 
             </div>
@@ -120,6 +141,11 @@ $(document).ready(function() {
 
         if (response.success) {
           sentMessageElement.text(response.message).show();
+
+          setTimeout(function() {
+            sentMessageElement.fadeOut();
+          }, 2000);
+
           form[0].reset();
         } else {
           loadingElement.hide();
@@ -139,3 +165,13 @@ $(document).ready(function() {
   });
 });
 </script>
+
+<script>
+    function validateNumber(input) {
+        const value = input.value;
+        const validValue = value.replace(/[^0-9]/g, '');
+        if (value !== validValue) {
+            input.value = validValue;
+        }
+    }
+    </script>

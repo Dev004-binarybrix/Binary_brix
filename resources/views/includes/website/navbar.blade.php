@@ -15,6 +15,7 @@
               class="bi bi-instagram"></i></a>
           <a href="https://www.linkedin.com/company/binarybrix/mycompany/" target="blank" class="linkedin"><i
               class="bi bi-linkedin"></i></a>
+              <a href="https://wa.me/923122166633" target="_blank" class="whatsapp" ><i class="bi bi-whatsapp"></i></a>
         </div>
       </div>
     </div>
@@ -49,7 +50,7 @@
             <li><a href="{{ url('/') }}#contact">Contact</a></li>
             <li><a href="{{ url('/') }}#about">About</a></li>
 
-            <li><a href="#team">Team</a></li>
+            <li><a href="{{ url('/') }}#team">Team</a></li>
 
 
           </ul>

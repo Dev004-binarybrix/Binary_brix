@@ -787,7 +787,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 40px 0;
   scroll-margin-top: 78px;
   overflow: clip;
 }
@@ -1855,7 +1855,10 @@ section,
 
 .service-details .services-img {
   margin-bottom: 20px;
+  margin-top: 10px;
+
 }
+
 
 .service-details h3 {
   font-size: 26px;
@@ -1954,9 +1957,7 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+
 
 
 .faq .faq-container .faq-active .faq-toggle {
