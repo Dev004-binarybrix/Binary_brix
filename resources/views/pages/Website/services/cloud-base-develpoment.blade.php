@@ -7,10 +7,11 @@
     <section id="service-details" class="service-details section">
         <div class="container">
             <div class="row gy-4">
-                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-                    <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
-                    <h3>Cloud Based Development
-                    </h3>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <img src="assets/img/services.jpg" alt="" class="img-fluid services-img ">
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Cloud Based Development</h3>
                     <p>
                         <strong>Experience a wide range of cloud-based solutions at BinaryBrix, designed to
                             optimize your business performance.</strong>
@@ -44,7 +45,7 @@
         </div>
 
     </section><!-- /Service Details Section -->
-    
+
     @include('includes.website.contact')
 
 </main>

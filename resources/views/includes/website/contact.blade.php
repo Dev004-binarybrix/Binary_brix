@@ -27,7 +27,7 @@
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Us</h3>
-                <p>(042)-35963555</p>
+                <p>+92-4235-963-555</p>
               </div>
             </div>
 
@@ -57,32 +57,32 @@
             <div class="row gy-4">
 
               <div class="col-md-6">
-                <label for="name-field" class="pb-2">Your Name:</label>
+                <label for="name-field" class="pb-2"><strong>Your Name</strong></label>
                 <input type="text" name="name" id="name-field" class="form-control" required="">
               </div>
 
               <div class="col-md-6">
-                <label for="email-field" class="pb-2">Your Email:</label>
+                <label for="email-field" class="pb-2"><strong>Your Email</strong></label>
                 <input type="email" class="form-control" name="email" id="email-field" required="">
               </div>
               <div class="col-md-6">
-                <label for="subject-field" class="pb-2">Phone Number</label>
-                <input type="text" class="form-control" name="number" id="number" required="" oninput="validateNumber(this)">
+                <label for="subject-field" class="pb-2"><strong>Phone Number</strong></label>
+                <input type="text" class="form-control" name="phone" id="phone" required="" oninput="validateNumber(this)">
               </div>
               <div class="col-md-6">
-                <label for="name-field" class="pb-2">Company</label>
-                <input type="text" name="company" id="name-field" class="form-control" required="">
+                <label for="name-field" class="pb-2"><strong>Company</strong></label>
+                <input type="text" name="company" id="company" class="form-control" required="">
 
               </div>
               <div class="col-md-6">
-                <label for="subject-field" class="pb-2">Job Title</label>
-                <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                <label for="subject-field" class="pb-2"><strong>Job Title</strong></label>
+                <input type="text" class="form-control" name="job" id="job" required="">
               </div>
 
               <div class="col-md-6">
-                <label for="subject-field" class="pb-2">How did you hear about us?</label>
-                <select class="form-control" name="subject" id="subject-field" required="">
-                    <option value="" disabled selected>Choose an option</option>
+                <label for="subject-field" class="pb-2"><strong>How did you hear about Binary Brix?</strong></label>
+                <select class="form-control" name="hear_about_us" id="hear_about_us" required="">
+                    <option value="" disabled selected><strong>Choose an option</strong></option>
                     <option value="bank">Bank</option>
                     <option value="network">Network</option>
                     <option value="partner-company">Partner Company</option>
@@ -92,9 +92,8 @@
                 </select>
             </div>
 
-
               <div class="col-md-12">
-                <label for="message-field" class="pb-2">Additional Information you would like us to know</label>
+                <label for="message-field" class="pb-2"><strong>Additional Information you would like us to know</strong></label>
                 <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
               </div>
 
@@ -172,7 +171,7 @@ $(document).ready(function() {
         const value = input.value;
         const validValue = value.replace(/[^0-9]/g, '');
         if (value !== validValue) {
-            input.value = validValue; 
+            input.value = validValue;
         }
     }
     </script>
