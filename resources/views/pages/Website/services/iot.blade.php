@@ -33,7 +33,7 @@
             <div class="row gy-4">
 
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                    <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+                    <img src="assets/img/serviceDetailed/iot.png" alt="" class="img-fluid services-img">
                 </div>
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                     <h3>(IOT) Internet Of Things Development

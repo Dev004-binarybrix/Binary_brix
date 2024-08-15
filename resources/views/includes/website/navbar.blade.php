@@ -28,24 +28,24 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li class="socials">
+                    <li>
                         <a href="https://www.facebook.com/binarybrix" target="_blank">
-                            <img src="./assets/img/facebook.png" alt="Facebook" style="width: 30px; height: 30px; margin-left:5px;">
+                            <img src="./assets/img/facebook.png" alt="Facebook" style="width: 40px; height: 40px; tool">
                         </a>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/binarybrix/" target="_blank">
-                            <img src="./assets/img/instagram.png" alt="Instagram" style="width: 32px; height: 32px; margin-left:5px;">
+                            <img src="./assets/img/instagram.png" alt="Instagram" style="width: 45px; height: 45px;">
                         </a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/company/binarybrix/mycompany/" target="_blank">
-                            <img src="./assets/img/linkedin.png" alt="Linked In" style="width: 30px; height: 30px;">
+                            <img src="./assets/img/linkedin.png" alt="Linked In" style="width: 40px; height: 40px;">
                         </a>
                     </li>
                     <li>
                         <a href="https://wa.me/923122166633" target="_blank">
-                            <img src="./assets/img/whatsapp.png" alt="Whatsapp" style="width: 30px; height: 30px;">
+                            <img src="./assets/img/whatsapp.png" alt="Whatsapp" style="width: 40px; height: 40px">
                         </a>
                     </li>
 

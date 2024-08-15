@@ -14,7 +14,7 @@
                     <p>
                         Designed to optimize your business performance.
                     </p>
-                    
+
                     <div class="d-flex mt-4">
                         <a href="#contact" class="btn-get-started fw-bold rounded-pill">Get a Quote</a>
                     </div>
@@ -29,7 +29,7 @@
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                    <img src="assets/img/services.jpg" alt="" class="img-fluid services-img ">
+                    <img src="assets/img/serviceDetailed/cloud.png" alt="" class="img-fluid services-img ">
 
                 </div>
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">

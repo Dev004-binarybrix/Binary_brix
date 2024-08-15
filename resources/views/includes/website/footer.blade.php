@@ -71,10 +71,31 @@
           <h4>Follow Us</h4>
 
           <div class="social-links d-flex">
-            <a href="https://www.facebook.com/binarybrix" target="_blank"><i class="bi bi-facebook"></i></a>
+            {{-- <a href="https://www.facebook.com/binarybrix" target="_blank"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/binarybrix/" target="blank"><i class="bi bi-instagram"></i></a>
             <a href="https://www.linkedin.com/company/binarybrix/" target="blank"><i class="bi bi-linkedin"></i></a>
-            <a href="https://wa.me/923122166633" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://wa.me/923122166633" target="_blank"><i class="bi bi-whatsapp"></i></a> --}}
+
+            <li>
+                        <a href="https://www.facebook.com/binarybrix" target="_blank">
+                            <img src="./assets/img/facebook.png" alt="Facebook" style="width: 40px; height: 40px;">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/binarybrix/" target="_blank">
+                            <img src="./assets/img/instagram.png" alt="Instagram" style="width: 45px; height: 45px;">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/binarybrix/mycompany/" target="_blank">
+                            <img src="./assets/img/linkedin.png" alt="Linked In" style="width: 40px; height: 40px;">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/923122166633" target="_blank">
+                            <img src="./assets/img/whatsapp.png" alt="Whatsapp" style="width: 40px; height: 40px">
+                        </a>
+                    </li>
           </div>
         </div>
 
