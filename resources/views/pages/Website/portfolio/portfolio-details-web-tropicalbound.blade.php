@@ -67,9 +67,11 @@
                         </div>
                         <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
                             <h2>Details </h2>
+
                             <p>
-                                TropicalBound is the state of the art web application
+                                TropicalBound Web App simplifiesproperty management and bookings across multiple countries. Property managers can easily oversee and update properties, approve bookings, and manage operations efficiently. Vendors input client information, ensuring smooth communication, while customers browse properties, view details, and submit booking requests—all within a user-friendly platform.
                             </p>
+
                         </div>
                     </div>
 

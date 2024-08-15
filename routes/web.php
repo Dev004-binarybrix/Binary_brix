@@ -73,6 +73,18 @@ Route::get('/web-tropical', function() {
     return view('pages.website.portfolio.portfolio-details-web-tropicalbound');
 })->name('web-tropical');
 
+Route::get('/design-almmaz', function() {
+    return view('pages.website.portfolio.portfolio-details-almmaz');
+})->name('design-almmaz');
+
+Route::get('/design-crackedout-coffee', function() {
+    return view('pages.website.portfolio.portfolio-details-crackedout-coffee');
+})->name('design-coffee');
+
+Route::get('/design-devWave', function() {
+    return view('pages.website.portfolio.portfolio-details-devwave');
+})->name('design-devwave');
 
 
+//Contact Us Form
 Route::post('/contact/send', [ContactController::class, 'contactMail'])->name('contact.send');

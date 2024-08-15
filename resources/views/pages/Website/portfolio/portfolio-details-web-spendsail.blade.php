@@ -69,9 +69,13 @@
                         </div>
                         <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
                             <h2>Details </h2>
-                            <p>
-                                SpendSail is the state of the art expense management software
-                            </p>
+
+                                <p>
+                                    SpendSail Web App is a powerful online platform designed to streamline expense management for businesses of all sizes.
+                                    With features like real-time expense tracking, effortless
+                                    budgeting, and AI-enhanced automation, the Web App provides users with a comprehensive view of their financial activities. The intuitive interface ensures that businesses can easily manage their finances from anywhere, reducing manual tasks and minimising errors, allowing for better financial control and more focus on growth.
+                                </p>
+
                         </div>
                     </div>
 

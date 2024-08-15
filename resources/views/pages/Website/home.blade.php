@@ -3,7 +3,7 @@
 @section('content')
     @include('includes.website.navbar')
     <main class="main">
-        <section id="hero" class="hero section light-background">
+        {{-- <section id="hero" class="hero section dark-background" style="background-image: url('assets/img/testimonials-bg.jpg'); background-size: cover; background-position: center;">
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
@@ -20,42 +20,32 @@
                     </div>
                 </div>
             </div>
+        </section> --}}
+
+        <section id="hero" class="hero section dark-background">
+            <div class="video-background">
+                <video autoplay loop muted id="hero-video">
+                    <source src="assets/img/hero.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+                        <h4>We Are</h4>
+                        <h1 class="fs-1"><span>Software Development Company</span></h1>
+
+                        <p>
+                            Blending strategic insights and designs with brilliant engineering
+                        </p>
+                        <div class="d-flex mt-4">
+                            <a href="#contact" class="btn-get-started fw-bold rounded-pill">Let’s Work Together</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        {{-- my code starts --}}
-
-        {{-- <div class="container">
-        <div class="card-deck">
-        <div class="card mt-3" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
-          </div>
-          <div class="card mt-3" style="width: 18rem; height: 25rem;">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
-          </div>
-          <div class="card mt-3" style="width: 18rem; height: 25rem;">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
-          </div>
-
-        </div>
-    </div> --}}
-
-
-        {{-- my code end --}}
 
         <section id=" services" class="services section">
             <div class="container section-title" data-aos="fade-up">
@@ -70,7 +60,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <i class="bi bi-activity"></i>
+                                <i class="bi bi-gear"></i>
                             </div>
                             <a href="{{ route('custom-software') }}" class="stretched-link">
                                 <h3>Custom Software Development</h3>
@@ -81,7 +71,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <i class="bi bi-broadcast"></i>
+                                <i class="bi bi-browser-chrome"></i>
                             </div>
                             <a href="{{ route('web-application') }}" class="stretched-link">
                                 <h3>Web Application Development</h3>
@@ -91,7 +81,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <i class="bi bi-easel"></i>
+                                <i class="bi bi-phone"></i>
                             </div>
                             <a href="{{ route('mobile-application') }}" class="stretched-link">
                                 <h3>Mobile Application Development</h3>
@@ -303,40 +293,40 @@
 
                         {{-- Design --}}
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/designPortfolios/almmaz.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/designPortfolios/almmaz/7.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Almmaz</h4>
                                 <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/designPortfolios/almmaz.jpg" title="Branding 2"
+                                <a href="assets/img/designPortfolios/almmaz/7.jpg" title="Branding 2"
                                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                <a href="{{ route('design-almmaz') }}" title="More Details" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/designPortfolios/coffee.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/designPortfolios/crackedOutCoffee/8.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Cracked Out Coffee</h4>
                                 <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/designPortfolios/coffee.jpg" title="Branding 2"
+                                <a href="assets/img/designPortfolios/crackedOutCoffee/8.jpg" title="Branding 2"
                                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                <a href="{{ route('design-coffee') }}" title="More Details" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/designPortfolios/devWave.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/designPortfolios/devWave/10.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Dev Wave</h4>
                                 <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/designPortfolios/devWave.jpg" title="Branding 2"
+                                <a href="assets/img/designPortfolios/devWave/10.jpg" title="Branding 2"
                                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                <a href="{{ route('design-devwave') }}" title="More Details" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
@@ -709,7 +699,7 @@
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        How can I get in touch with your team?
+                                        <strong>How can I get in touch with your team?</strong>
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
@@ -726,7 +716,7 @@
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        How do you keep my information safe?
+                                        <strong>How do you keep my information safe?</strong>
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -744,7 +734,7 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        Can I see what you’ve done before?
+                                        <strong>Can I see what you’ve done before?</strong>
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
@@ -761,7 +751,7 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
-                                        How much will my project cost?
+                                        <strong>How much will my project cost?</strong>
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
@@ -778,7 +768,7 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFive" aria-expanded="false"
                                         aria-controls="collapseFive">
-                                        Will you help me after the project is finished?
+                                        <strong>Will you help me after the project is finished?</strong>
                                     </button>
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
@@ -794,7 +784,7 @@
                                 <h2 class="accordion-header" id="headingSix">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                        What makes you different from other companies?
+                                        <strong>What makes you different from other companies?</strong>
                                     </button>
                                 </h2>
                                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"

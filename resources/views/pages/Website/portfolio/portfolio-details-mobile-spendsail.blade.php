@@ -68,9 +68,12 @@
                         </div>
                         <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
                             <h2>Details </h2>
-                            <p>
-                                Spend Sail is the state of the art expense management software
-                            </p>
+
+                                <p>
+                                    SpendSail Mobile App brings the full power of SpendSail's expense management tools right to your fingertips. Designed for on-the-go efficiency, the Mobile App allows users to track expenses, manage budgets, and access real-time financial insights from their smartphones. With AI-powered features and a user-friendly interface, the Mobile App makes it easy for businesses to stay in control of their finances, no matter where they are, ensuring seamless financial management even when you're away from the office.
+                                </p>
+
+
                         </div>
                     </div>
 

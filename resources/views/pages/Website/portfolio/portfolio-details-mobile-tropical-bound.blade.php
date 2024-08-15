@@ -69,9 +69,11 @@
                         </div>
                         <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
                             <h2>Details </h2>
+
                             <p>
-                                TropicalBound is the state of the art software empowering
+                                TropicalBound Mobile App brings property management and booking to your smartphone. Property managers can approve bookings and update details on the go, vendors input client data directly, and customers browse properties and book with ease. The app ensures efficient and seamless management, anytime, anywhere.
                             </p>
+
                         </div>
                     </div>
 
