@@ -16,7 +16,8 @@
                     <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
                         <h1 class="fs-1"><span>Mobile Application</span></h1>
                         <p>
-                            Every visual element aligning with its high standards and innovative spirit.
+                            Brings property management and booking to your
+                                smartphone.
 
                         </p>
 
@@ -89,7 +90,10 @@
                             <h2>Details </h2>
 
                             <p>
-                                TropicalBound Mobile App brings property management and booking to your smartphone. Property managers can approve bookings and update details on the go, vendors input client data directly, and customers browse properties and book with ease. The app ensures efficient and seamless management, anytime, anywhere.
+                                TropicalBound Mobile App brings property management and booking to your
+                                smartphone. Property managers can approve bookings and update details on the go,
+                                 vendors input client data directly, and customers browse properties and book with ease.
+                                  The app ensures efficient and seamless management, anytime, anywhere.
                             </p>
 
                         </div>

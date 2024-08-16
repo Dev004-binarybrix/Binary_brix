@@ -14,7 +14,7 @@
                 <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
                     <h1 class="fs-1"><span>OUR SERVICES</span></h1>
                     <p>
-                        Blending strategic insights and thoughtful design with brilliant engineering, we create robust technical solutions that deliver digital transformation at scale.
+                        Blending strategic insights and designs with brilliant engineering
                     </p>
                     {{-- <div class="d-flex mt-4">
                         <a href="#contact" class="btn-get-started fw-bold rounded-pill">Let’s Work Together</a>

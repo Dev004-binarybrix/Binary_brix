@@ -16,7 +16,7 @@
                     <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
                         <h1 class="fs-1"><span>Web Application</span></h1>
                         <p>
-                            Every visual element aligning with its high standards and innovative spirit.
+                            Every visual element aligning with innovative spirit.
 
                         </p>
 
@@ -89,7 +89,11 @@
                             <h2>Details </h2>
 
                             <p>
-                                TropicalBound Web App simplifiesproperty management and bookings across multiple countries. Property managers can easily oversee and update properties, approve bookings, and manage operations efficiently. Vendors input client information, ensuring smooth communication, while customers browse properties, view details, and submit booking requests—all within a user-friendly platform.
+                                TropicalBound Web App simplifiesproperty management and bookings across multiple
+                                countries. Property managers can easily oversee and update properties,
+                                approve bookings, and manage operations efficiently. Vendors input client information,
+                                ensuring smooth communication, while customers browse properties, view details,
+                                and submit booking requests—all within a user-friendly platform.
                             </p>
 
                         </div>
@@ -112,17 +116,6 @@
             <div class="container">
 
                 <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-
-                        <!-- .filter-app is mobile -->
-                        <!-- filter product is web -->
-                        <!-- filter branding design -->
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">Mobile</li>
-                        <li data-filter=".filter-product">Web</li>
-                        <li data-filter=".filter-branding">Design</li>
-                    </ul>
 
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="100">
 

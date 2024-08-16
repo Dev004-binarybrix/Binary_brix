@@ -16,7 +16,7 @@
                     <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
                         <h1 class="fs-1"><span>Branding Project</span></h1>
                         <p>
-                            Every visual element aligning with its high standards and innovative spirit.
+                            Every visual element aligning with innovative spirit.
 
                         </p>
 

@@ -16,7 +16,7 @@
                     <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
                         <h1 class="fs-1"><span>Mobile Application</span></h1>
                         <p>
-                            Every visual element aligning with its high standards and innovative spirit.
+                            Designed for on-the-go efficiency
 
                         </p>
 
@@ -92,7 +92,12 @@
                             <h2>Details </h2>
 
                                 <p>
-                                    SpendSail Mobile App brings the full power of SpendSail's expense management tools right to your fingertips. Designed for on-the-go efficiency, the Mobile App allows users to track expenses, manage budgets, and access real-time financial insights from their smartphones. With AI-powered features and a user-friendly interface, the Mobile App makes it easy for businesses to stay in control of their finances, no matter where they are, ensuring seamless financial management even when you're away from the office.
+                                    SpendSail Mobile App brings the full power of SpendSail's expense
+                                    management tools right to your fingertips. Designed for on-the-go efficiency,
+                                    the Mobile App allows users to track expenses, manage budgets, and access real-time
+                                    financial insights from their smartphones. With AI-powered features and a user-friendly
+                                    interface, the Mobile App makes it easy for businesses to stay in control of their finances,
+                                    no matter where they are, ensuring seamless financial management even when you're away from the office.
                                 </p>
 
 
