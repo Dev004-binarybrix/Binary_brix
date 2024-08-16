@@ -85,30 +85,28 @@
                             </ul>
                         </li>
                         <li><a href="{{ url('/') }}#portfolio">Portfolio</a></li>
-                        <li><a href="{{ url('/') }}#contact">Contact</a></li>
-
                         <li class="dropdown"><a href="{{ url('/') }}#about"><span>About Us</span> <i
-                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                            <ul>
-                                <li class="nav-item"><a href="{{ url('/') }}#about"><i
-                                            class="bi bi-info-circle"></i>
-                                        About Us</a></li>
-                                <li class="nav-item"><a href="{{ url('/') }}#testimonials"><i
-                                            class="bi bi-stars"></i>Testimonial</a></li>
+                            class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                        <li class="nav-item"><a href="{{ url('/') }}#about"><i
+                                    class="bi bi-info-circle"></i>
+                                About Us</a></li>
+                        <li class="nav-item"><a href="{{ url('/') }}#testimonials"><i
+                                    class="bi bi-stars"></i>Testimonial</a></li>
 
-                                <li class="nav-item"><a href="{{ url('/') }}#team"><i class="bi bi-people"></i>
-                                        BinaryBrix Team</a></li>
-                                <li class="nav-item"><a href="{{ url('/') }}#contact"><i
-                                            class="bi bi-envelope"></i>Contact Us</a></li>
-                                <li class="nav-item"><a href="{{ url('/') }}"><i
-                                            class="bi bi-briefcase"></i>Career</a></li>
-                                <li class="nav-item"><a href="{{ url('/') }}#faq"><i
-                                            class="bi bi-question-circle"></i>
-                                        F.A.Q</a></li>
-                            </ul>
+                        <li class="nav-item"><a href="{{ url('/') }}#team"><i class="bi bi-people"></i>
+                                BinaryBrix Team</a></li>
+                        <li class="nav-item"><a href="{{ url('/') }}#contact"><i
+                                    class="bi bi-envelope"></i>Contact Us</a></li>
+                        <li class="nav-item"><a href="{{ url('/') }}"><i
+                                    class="bi bi-briefcase"></i>Career</a></li>
+                        <li class="nav-item"><a href="{{ url('/') }}#faq"><i
+                                    class="bi bi-question-circle"></i>
+                                F.A.Q</a></li>
+                    </ul>
 
-                        </li>
-
+                </li>
+                        <li><a href="{{ url('/') }}#contact">Contact</a></li>
                         <li><a href="{{ url('/') }}#team">Team</a></li>
 
 
