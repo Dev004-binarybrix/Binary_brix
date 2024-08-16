@@ -5,7 +5,7 @@
 
 <main class="main">
 
-    <section id="hero" class="hero section dark-background" style="min-height: 50vh !important;margin-bottom: 20%;">
+    <section id="hero" class="hero section dark-background" style="min-height: 30vh; padding: 40px 0;">
         <div class="image-background">
             <img src="assets/img/hero-bg.jpg" alt="Hero Image" id="hero-image">
         </div>
@@ -23,11 +23,12 @@
             </div>
         </div>
     </section>
+    {{-- <br>
+    <br>
+    <br><br> --}}
 
 
-
-
-    <section id="services" class="services section ">
+    <section id="services" class="services section " style="margin-top: 25vh">
       <div class="container section-title" data-aos="fade-up">
         <h2>All Services</h2>
         <p><span>How Can We Empower </span> <span class="description-title">Your Business ?</span></p>

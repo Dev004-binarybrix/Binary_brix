@@ -5,7 +5,7 @@
 
 <main class="main">
 
-    <section id="hero" class="hero section dark-background" style="min-height: 50vh !important;margin-bottom: 20%;">
+    <section id="hero" class="hero section dark-background" style="min-height: 30vh; padding: 40px 0;">
         <div class="image-background">
             <img src="assets/img/hero-bg.jpg" alt="Hero Image" id="hero-image">
         </div>
@@ -16,7 +16,7 @@
                     <p>
                         Tailor-made web applications designed to improve operational efficiency
                     </p>
-                    <div class="d-flex mt-4">
+                    <div class="d-flex mt-5">
                         <a href="#contact" class="btn-get-started fw-bold rounded-pill">Get a Quote</a>
                     </div>
                 </div>

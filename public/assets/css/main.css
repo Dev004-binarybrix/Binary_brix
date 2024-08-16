@@ -176,6 +176,7 @@ h6 {
     color: var(--nav-color);
 }
 
+
 .header .topbar {
     background-color: var(--accent-color);
     height: 40px;
@@ -899,7 +900,7 @@ section,
 .hero:before {
     content: "";
     background: rgba(102, 103, 103, 0.3);
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     top: 0;
     left: 0;
@@ -923,13 +924,13 @@ section,
     object-fit: cover;
 }
 
-/* hero image */
+
 .hero .image-background {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 75vh;
     overflow: hidden;
     z-index: 0;
 }
@@ -2002,6 +2003,9 @@ section,
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
+.service-details{
+    margin-top: 25vh;
+}
 .service-details .services-list {
     background-color: var(--surface-color);
     padding: 10px 30px;

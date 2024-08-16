@@ -296,7 +296,7 @@
                             <img src="assets/img/designPortfolios/almmaz/7.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Almmaz</h4>
-                                <p>Lorem ipsum, dolor sit</p>
+                                <p>Branding Project</p>
                                 <a href="assets/img/designPortfolios/almmaz/7.jpg" title="Branding 2"
                                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
@@ -309,7 +309,7 @@
                             <img src="assets/img/designPortfolios/crackedOutCoffee/8.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Cracked Out Coffee</h4>
-                                <p>Lorem ipsum, dolor sit</p>
+                                <p>Branding Project</p>
                                 <a href="assets/img/designPortfolios/crackedOutCoffee/8.jpg" title="Branding 2"
                                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
@@ -322,7 +322,7 @@
                             <img src="assets/img/designPortfolios/devWave/10.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Dev Wave</h4>
-                                <p>Lorem ipsum, dolor sit</p>
+                                <p>Branding Project</p>
                                 <a href="assets/img/designPortfolios/devWave/10.jpg" title="Branding 2"
                                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
@@ -802,6 +802,7 @@
                 </div>
             </div>
         </section>
+        <br>
 
     </main>
 @endsection

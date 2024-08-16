@@ -19,117 +19,138 @@
     </div> --}}
 
     <div class="container footer-top light-background">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="{{ url('/') }}" class="d-flex align-items-center">
-            <img src="./assets/img/brixLogo.png" height="35px">
-          </a>
-          <div class="footer-contact pt-3">
-            <p><strong>Address:</strong>
-                <a href="https://maps.app.goo.gl/buWUT8aBCGZGg171A" target="_blank">
-                    <span class="span">55th Avenue</span>, <span>Thokar Niaz Baig</span>
-                    <span>Lahore, Punjab 53700, Pakistan</span>
+        <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 footer-about">
+                <a href="{{ url('/') }}" class="d-flex align-items-center">
+                    <img src="./assets/img/brixBlue.png" height="35px">
                 </a>
-            </p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+92-4235963555</span></p>
-            <p><strong>Email:</strong>
-                <a href="mailto:info@binarybrix.com">
-                    <span>info@binarybrix.com</span>
-                </a>
-            </p>
-        </div>
-        </div>
+                <div class="footer-contact pt-3">
+                    <p><strong>Address:</strong>
+                        <a href="https://maps.app.goo.gl/buWUT8aBCGZGg171A" target="_blank">
+                            <span class="span">55th Avenue</span>, <span>Thokar Niaz Baig</span>
+                            <span>Lahore,</span><br><span> Punjab 53700, Pakistan</span>
+                        </a>
+                    </p>
+                    <p class="mt-3"><strong>Phone:</strong> <span>+92-4235963555</span></p>
+                    <p><strong>Email:</strong>
+                        <a href="mailto:info@binarybrix.com">
+                            <span>info@binarybrix.com</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#about">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#portfolio">Portfolio</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#services">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a
-                href="https://binarybrix.com/hrm/web/index.php/recruitmentApply/jobs.html?v=1.0"
-                target="_blank">Careers</a></li>
+            <div class="col-lg-2 col-md-3 footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}">Home</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#about">About us</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#portfolio">Portfolio</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#services">Services</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a
+                            href="https://binarybrix.com/hrm/web/index.php/recruitmentApply/jobs.html?v=1.0"
+                            target="_blank">Careers</a></li>
 
 
 
 
-          </ul>
-        </div>
+                </ul>
+            </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i><a href="{{ route('custom-software') }}">Custom Software Development</a></li>
-            <li><i class="bi bi-chevron-right"></i><a href="{{ route('web-application') }}">Web App Development</a></li>
-            <li><i class="bi bi-chevron-right"></i><a href="{{ route('mobile-application') }}">Mobile App Development</a></li>
-            <li><i class="bi bi-chevron-right"></i><a href="{{ route('services') }}">More</a></li>
-        </ul>
-        </div>
+            <div class="col-lg-3 col-md-4 footer-links">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><i class="bi bi-chevron-right"></i><a href="{{ route('custom-software') }}">Custom Software
+                            Development</a></li>
+                    <li><i class="bi bi-chevron-right"></i><a href="{{ route('web-application') }}">Web App
+                            Development</a></li>
+                    <li><i class="bi bi-chevron-right"></i><a href="{{ route('mobile-application') }}">Mobile App
+                            Development</a></li>
+                            <li><i class="bi bi-chevron-right"></i><a href="{{ route('high-tech-game') }}">Game
+                                Development</a></li>
+                    <li><i class="bi bi-chevron-right"></i><a href="{{ route('services') }}">More</a></li>
+                </ul>
+            </div>
 
-        <div class="col-lg-4 col-md-12">
-          <h4>Follow Us</h4>
+            <div class="col-lg-3 col-md-4">
+                <h4>Follow Us</h4>
 
-          <div class="social-links d-flex">
-            {{-- <a href="https://www.facebook.com/binarybrix" target="_blank"><i class="bi bi-facebook"></i></a>
+                <div class="social-links d-flex">
+                    {{-- <a href="https://www.facebook.com/binarybrix" target="_blank"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/binarybrix/" target="blank"><i class="bi bi-instagram"></i></a>
             <a href="https://www.linkedin.com/company/binarybrix/" target="blank"><i class="bi bi-linkedin"></i></a>
             <a href="https://wa.me/923122166633" target="_blank"><i class="bi bi-whatsapp"></i></a> --}}
 
-            <li>
-                        <a href="https://www.facebook.com/binarybrix" target="_blank">
+                    <li>
+                        <a href="https://www.facebook.com/binarybrix" target="_blank" data-toggle="tooltip" title="Follow us on Facebook">
                             <img src="./assets/img/facebook.png" alt="Facebook" style="width: 40px; height: 40px;">
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/binarybrix/" target="_blank">
+                        <a href="https://www.instagram.com/binarybrix/" target="_blank" data-toggle="tooltip" title="Follow us on Instagram">
                             <img src="./assets/img/instagram.png" alt="Instagram" style="width: 45px; height: 45px;">
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/company/binarybrix/mycompany/" target="_blank">
+                        <a href="https://www.linkedin.com/company/binarybrix/mycompany/" target="_blank" data-toggle="tooltip" title="Connect with us on LinkedIn">
                             <img src="./assets/img/linkedin.png" alt="Linked In" style="width: 40px; height: 40px;">
                         </a>
                     </li>
                     <li>
-                        <a href="https://wa.me/923122166633" target="_blank">
+                        <a href="https://wa.me/923122166633" target="_blank" data-toggle="tooltip" title="+92-4235963555">
                             <img src="./assets/img/whatsapp.png" alt="Whatsapp" style="width: 40px; height: 40px">
                         </a>
                     </li>
-          </div>
-        </div>
+                </div>
+            </div>
 
-      </div>
+        </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">BinaryBrix Pvt Ltd</strong> <span>All Rights
-          Reserved.</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">BinaryBrix Pvt Ltd</strong> <span>All Rights
+                Reserved.</span></p>
 
     </div>
 
-  </footer>
+
+</footer>
 
 
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
 
 
-  <div id="preloader">
+<div id="preloader">
     <div></div>
     <div></div>
     <div></div>
     <div></div>
-  </div>
+</div>
 
-  <script src="{{ asset('assets/vendor/apexcharts/apexcharts.min.js') }}"></script>
-  <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-  <script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script>
-  <script src="{{ asset('assets/vendor/aos/aos.js') }}"></script>
-  <script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
-  <script src="{{ asset('assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
-  <script src="{{ asset('assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
-  <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
-  <script src="{{ asset('assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
-  <script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
-  <script src="{{ asset('assets/js/main.js') }}"></script>
+<script src="{{ asset('assets/vendor/apexcharts/apexcharts.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script>
+<script src="{{ asset('assets/vendor/aos/aos.js') }}"></script>
+<script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
+<script src="{{ asset('assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+<script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
+
+<script src="{{ asset('assets/vendor/jquery/jquery.min.js') }}"></script> <!-- Make sure jQuery is loaded first -->
+<script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script> <!-- Bootstrap JS should be loaded after jQuery -->
+
+<script>
+    $(document).ready(function() {
+        $('[data-bs-toggle="tooltip"]').tooltip({
+            delay: {
+                "show": 0,
+                "hide": 0
+            }
+        });
+    });
+</script>
+

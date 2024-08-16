@@ -4,7 +4,7 @@
 @include('includes.website.navbar')
 <main class="main">
 
-    <section id="hero" class="hero section dark-background" style="min-height: 50vh !important;margin-bottom: 20%;">
+    <section id="hero" class="hero section dark-background" style="min-height: 30vh; padding: 40px 0;">
         <div class="image-background">
             <img src="assets/img/hero-bg.jpg" alt="Hero Image" id="hero-image">
         </div>
@@ -15,7 +15,7 @@
                     <p>
                         Enhance customer interactions with intelligent, responsive chatbots.
                     </p>
-                    <div class="d-flex mt-4">
+                    <div class="d-flex mt-5">
                         <a href="#contact" class="btn-get-started fw-bold rounded-pill">Get a Quote</a>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
             <div class="row gy-4">
 
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                    <img src="assets/img/serviceDetailed/services.jpg" alt="" class="img-fluid services-img">
+                    <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
                 </div>
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                     <h3>Artificial Intelligence & Machine Learning
