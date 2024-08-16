@@ -229,7 +229,6 @@ h6 {
     min-height: 60px;
     padding: 10px 0;
     z-index: 999
-
 }
 
 
@@ -238,7 +237,7 @@ h6 {
 }
 
 .header .logo img {
-    max-height: 36px;
+    max-height: 43px;
     margin-right: 8px;
 }
 
@@ -278,13 +277,16 @@ h6 {
         position: relative;
     }
 
+    .margin-right {
+        margin-right: 50px;
+    }
 
     .navmenu a,
     .navmenu a:focus {
         /* color: var(--nav-color); */
         color: white;
         padding: 18px 15px;
-        font-size: 15px;
+        font-size: 19px;
         font-family: var(--nav-font);
         font-weight: 600;
         display: flex;
@@ -586,7 +588,7 @@ h6 {
 
 }
 
-.footer .social-links li{
+.footer .social-links li {
     list-style: none;
 }
 
@@ -975,7 +977,7 @@ section,
 .hero h1 span {
     /* color: var(--accent-color); */
 
-    color:#1085ea;
+    color: #1085ea;
 }
 
 /* my css */
@@ -994,15 +996,27 @@ section,
 
 
 @keyframes typing {
-    0% { width: 0; }
-    100% { width: 100%; }
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
 
 }
 
 
 @keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: #1085ea; }
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #1085ea;
+    }
 }
 
 
@@ -1065,9 +1079,17 @@ section,
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+
+/* @media (max-width: 425px) {
+    .hero h1 {
+        font-size: 17px !important;
+        line-height: 36px;
+    }
+} */
+
 @media (max-width: 640px) {
     .hero h1 {
-        font-size: 28px;
+        font-size: 18px !important;
         line-height: 36px;
     }
 
@@ -1605,7 +1627,7 @@ section,
     border-radius: 5px;
 }
 
-.team .team-member:hover{
+.team .team-member:hover {
 
     background-color: #f8f9fa;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -2156,7 +2178,3 @@ section,
     font-size: 24px !important;
 
 }
-
-
-
-
