@@ -2004,7 +2004,7 @@ section,
 # Service Details Section
 --------------------------------------------------------------*/
 .service-details{
-    margin-top: 25vh;
+    margin-top: 15vh;
 }
 .service-details .services-list {
     background-color: var(--surface-color);
