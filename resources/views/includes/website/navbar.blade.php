@@ -119,35 +119,4 @@
         </div>
 
     </div>
-
-
-    <script>
-        document.addEventListener('scroll', function() {
-            const header = document.querySelector('.header');
-            const navmenu = document.querySelector('.navmenu');
-            const logo = document.getElementById('brand-logo');
-
-            if (window.scrollY > 50) {
-                header.classList.add('scrolled');
-                navmenu.classList.add('scrolled');
-                logo.src = "./assets/img/brixBlue.png";
-            } else {
-                header.classList.remove('scrolled');
-                navmenu.classList.remove('scrolled');
-                logo.src = "./assets/img/brixLogo.png";
-            }
-        });
-    </script>
-
-    <script>
-        $(document).ready(function() {
-            $('[data-toggle="tooltip"]').tooltip({
-                delay: {
-                    "show": 0,
-                    "hide": 0
-                }
-            });
-        });
-    </script>
-
 </header>

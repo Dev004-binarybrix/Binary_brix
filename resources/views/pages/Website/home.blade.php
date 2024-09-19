@@ -95,9 +95,8 @@
             </div>
         </section>
         <section id="stats" class="stats section">
-
+            
             <div class="container" data-aos="fade-up" data-aos-delay="50">
-
                 <div class="row gy-4">
 
                     <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
@@ -292,6 +291,7 @@
 
 
                         {{-- Design --}}
+
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                             <img src="assets/img/designPortfolios/almmaz/7.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
