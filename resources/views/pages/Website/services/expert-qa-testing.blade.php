@@ -6,12 +6,12 @@
 
     <section id="hero" class="hero section dark-background" style="min-height: 30vh; padding: 40px 0;">
         <div class="image-background">
-            <img src="assets/img/hero-bg.jpg" alt="Hero Image" id="hero-image">
+            <img src="assets/img/services-img/QA-Testing.jpg" alt="Hero Image" id="hero-image">
         </div>
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-                    <h1 class="fs-1"><span>Quality Assurance And Testing</span></h1>
+                    <h1 class="fs-1"><span class="text-white">Quality Assurance And Testing</span></h1>
                     <p>
                         We meticulously
                         examine every system to ensure thorough testing

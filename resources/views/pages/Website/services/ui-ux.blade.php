@@ -10,12 +10,12 @@
 
     <section id="hero" class="hero section dark-background" style="min-height: 30vh; padding: 40px 0;">
         <div class="image-background">
-            <img src="assets/img/hero-bg.jpg" alt="Hero Image" id="hero-image">
+            <img src="assets/img/services-img/UI_UX Design &Development.jpg" alt="Hero Image" id="hero-image">
         </div>
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-                    <h1 class="fs-1"><span>UI/UX Design And Development</span></h1>
+                    <h1 class="fs-1"><span class="text-white">UI/UX Design And Development</span></h1>
                     <p>
                         Intuitive interfaces that drive user engagement and conversions.
                     </p>
