@@ -120,6 +120,7 @@
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="100">
 
                         <!-- Web -->
+                        <a href="{{ route('web-tropical') }}">
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <img src="assets/img/portfolios/webTropicalBound.png" class="img-fluid" alt="">
 
@@ -131,9 +132,10 @@
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-
+                    </a>
 
                         <!-- Web -->
+                        <a href="{{ route('web-spendsail') }}">
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <img src="assets/img/portfolios/webSpendsail.png" class="img-fluid" alt="">
 
@@ -143,7 +145,7 @@
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-
+                    </a>
                     </div>
                 </div>
             </div>

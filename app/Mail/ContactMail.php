@@ -13,7 +13,6 @@ use Illuminate\Queue\SerializesModels;
 class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
-
     public $data;
 
     /**
@@ -32,11 +31,9 @@ class ContactMail extends Mailable
 {
     return new Envelope(
         subject: 'BinaryBrix-Support - ',
-        from: new Address('ummyhabiba999@gmail.com', 'Support Team')
+        from: new Address('info@binarybrix.com', 'Support Team')
     );
 }
-
-
     /**
      * Get the message content definition.
      */

@@ -69,7 +69,7 @@
                                     <img src="assets/img/designPortfolios/crackedOutCoffee/12.jpg" alt="">
                                 </div>
 
-                                 <div class="swiper-slide">
+                                <div class="swiper-slide">
                                     <img src="assets/img/designPortfolios/crackedOutCoffee/6.jpg" alt="">
                                 </div>
 
@@ -89,7 +89,11 @@
                         <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
                             <h2>Details </h2>
                             <p>
-                                For Breakout Coffee, the branding project aimed to create a vibrant and engaging visual identity. The design includes a bold logo and energetic color scheme that captures the essence of Breakout Coffee’s dynamic personality. This branding approach enhances Breakout Coffee’s appeal and distinguishes it in the competitive coffee industry, emphasizing its commitment to a premium coffee experience.
+                                For Breakout Coffee, the branding project aimed to create a vibrant and engaging visual
+                                identity. The design includes a bold logo and energetic color scheme that captures the
+                                essence of Breakout Coffee’s dynamic personality. This branding approach enhances Breakout
+                                Coffee’s appeal and distinguishes it in the competitive coffee industry, emphasizing its
+                                commitment to a premium coffee experience.
                             </p>
                         </div>
                     </div>
@@ -127,34 +131,35 @@
 
 
                         {{-- Design --}}
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/designPortfolios/almmaz/7.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Almmaz</h4>
-                                <p>Branding Project</p>
-                                <a href="assets/img/designPortfolios/almmaz/7.jpg" title="Branding 2"
-                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="{{ route('design-almmaz') }}" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                        <a href="{{ route('design-almmaz') }}">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                                <img src="assets/img/designPortfolios/almmaz/7.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Almmaz</h4>
+                                    <p>Branding Project</p>
+                                    <a href="assets/img/designPortfolios/almmaz/7.jpg" title="Branding 2"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ route('design-almmaz') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div>
-                        </div>
+                        </a>
 
-
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/designPortfolios/devWave/10.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Dev Wave</h4>
-                                <p>Branding Project</p>
-                                <a href="assets/img/designPortfolios/devWave/10.jpg" title="Branding 2"
-                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="{{ route('design-devwave') }}" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                        <a href="{{ route('design-devwave') }}">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                                <img src="assets/img/designPortfolios/devWave/10.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Dev Wave</h4>
+                                    <p>Branding Project</p>
+                                    <a href="assets/img/designPortfolios/devWave/10.jpg" title="Branding 2"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ route('design-devwave') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div>
-                        </div>
-
+                        </a>
 
                     </div>
                 </div>

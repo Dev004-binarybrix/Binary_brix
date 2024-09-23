@@ -29,8 +29,7 @@
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                    <img src="assets/img/serviceDetailed/cloud.png" alt="" class="img-fluid services-img ">
-
+                    <img src="assets/img/serviceDetailed/Cloud/2.jpg" alt="" class="img-fluid services-img ">
                 </div>
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                     <h3>Cloud Based Development</h3>
@@ -66,7 +65,8 @@
 
         </div>
 
-    </section><!-- /Service Details Section -->
+    </section>
+    <!-- /Service Details Section -->
 
     {{-- Other services --}}
 
@@ -74,8 +74,6 @@
         <div class="container section-title" data-aos="fade-up">
           <h2>Our Other Services</h2>
           <p><span>How Can We Empower </span> <span class="description-title">Your Business ?</span></p>
-
-
         </div>
 
         <div class="container">
@@ -208,7 +206,6 @@
       <br>
 
     @include('includes.website.contact')
-
 </main>
 @endsection
 

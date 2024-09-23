@@ -23,7 +23,6 @@
         </div>
     </section>
 
-
     <!-- Service Details Section -->
     <section id="service-details" class="service-details section">
 
@@ -32,7 +31,7 @@
             <div class="row gy-4">
 
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                    <img src="assets/img/serviceDetailed/devops.png" alt="" class="img-fluid services-img">
+                    <img src="assets/img/serviceDetailed/DevOps/devops.png" alt="" class="img-fluid services-img">
                 </div>
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                     <h3>DevOps Development
@@ -61,10 +60,8 @@
                         </li>
                     </ul>
                     <p>
-
                             Transform your business operations with our expert DevOps solutions.
                             Partner with BinaryBrix to implement automation and modernize your processes, ensuring efficiency and agility.
-
                     </p>
                     <p>
                         <strong>Contact us today!</strong> We're ready to help you optimize your DevOps strategy.
@@ -84,7 +81,6 @@
         <div class="container section-title" data-aos="fade-up">
           <h2>All Services</h2>
           <p><span>How Can We Empower </span> <span class="description-title">Your Business ?</span></p>
-
 
         </div>
 

@@ -215,7 +215,8 @@ h6 {
 }
 
 .header .topbar .social-links a {
-    color: color-mix(in srgb, var(--contrast-color), transparent 40%);
+    /* color: color-mix(in srgb, var(--contrast-color), transparent 40%); */
+    color: var(--contrast-color);
     line-height: 0;
     transition: 0.3s;
     margin-left: 20px;
@@ -578,11 +579,11 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    /* width: 40px;
+    height: 40px; */
     border-radius: 4px;
     /* border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%); */
-    font-size: 16px;
+    font-size: 25px;
     /* color: color-mix(in srgb, var(--default-color), transparent 20%); */
     margin-right: 10px;
     transition: 0.3s;
@@ -671,7 +672,7 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
+/* #preloader {
     position: fixed;
     inset: 0;
     z-index: 9999;
@@ -743,7 +744,7 @@ h6 {
     100% {
         transform: translate(24px, 0);
     }
-}
+} */
 
 /*--------------------------------------------------------------
 # Scroll Top Button
@@ -894,7 +895,6 @@ section,
     overflow: hidden;
     background-size: cover;
 
-
 }
 
 .hero:before {
@@ -991,7 +991,7 @@ section,
     white-space: nowrap;
     width: 0;
     animation: typing 4s steps(40, end) 1s infinite, blink-caret 0.75s step-end infinite;
-    animation-fill-mode: forwards; 
+    animation-fill-mode: forwards;
 }
 
 
@@ -1016,74 +1016,42 @@ section,
     }
 }
 
-
-
-
-/* .hero p {
-
-    margin: 5px 0 30px 0;
-    font-size: 20px;
-    font-weight: 400;
-
-} */
-
 .hero .btn-get-started {
     color: var(--contrast-color);
     background: var(--accent-color);
-    /* background: #00BC77; */
-    font-family: var(--heading-font);
+    /* font-family: var(--heading-font); */
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 30px;
     border-radius: 4px;
-    transition: 0.5s;
+    transition: all 0.3s ease-in-out;
     box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
 }
 
-.hero .btn-get-started:hover {
+/* Add hover and focus effects */
+.hero .btn-get-started:hover,
+.hero .btn-get-started:focus {
+    transform: translateY(-5px) scale(1.05);
     color: var(--contrast-color);
-    background: color-mix(in srgb, var(--accent-color), transparent 15%);
-    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+    background: color-mix(in srgb, var(--accent-color), transparent 10%);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
-
-.hero .btn-watch-video {
+/* .hero .btn-watch-video {
     font-size: 16px;
     transition: 0.5s;
     margin-left: 25px;
     color: var(--default-color);
     font-weight: 600;
-}
+} */
 
-.hero .btn-watch-video i {
-    color: var(--accent-color);
-    font-size: 32px;
-    transition: 0.3s;
-    line-height: 0;
-    margin-right: 8px;
-}
-
-.hero .btn-watch-video:hover {
-    color: var(--accent-color);
-}
-
-.hero .btn-watch-video:hover i {
-    color: color-mix(in srgb, var(--accent-color), transparent 15%);
-}
 
 .hero .animated {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-
-/* @media (max-width: 425px) {
-    .hero h1 {
-        font-size: 17px !important;
-        line-height: 36px;
-    }
-} */
 
 @media (max-width: 640px) {
     .hero h1 {
@@ -1097,10 +1065,6 @@ section,
         margin-bottom: 30px;
     }
 
-    .hero .btn-get-started,
-    .hero .btn-watch-video {
-        font-size: 13px;
-    }
 }
 
 @keyframes up-down {
@@ -2178,4 +2142,23 @@ section,
     transition: transform 0.3s;
     font-size: 24px !important;
 
+}
+
+.loader {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background-color: var(--background-color);
+    transition: all 0.6s ease-out;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader img {
+    width: 200px;
+    height: 200px;
 }

@@ -3,25 +3,6 @@
 @section('content')
     @include('includes.website.navbar')
     <main class="main">
-        {{-- <section id="hero" class="hero section dark-background" style="background-image: url('assets/img/testimonials-bg.jpg'); background-size: cover; background-position: center;">
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-                        <h4>We Are</h4>
-                        <h1 class="fs-1"> <span>Software Development Company</span></h1>
-                        <p>
-                            Blending strategic insights and thoughtful design with brilliant engineering,
-                            we create robust technical solutions that deliver digital transformation at scale.
-
-                        </p>
-                        <div class="d-flex mt-4">
-                            <a href="#contact" class="btn-get-started fw-bold rounded-pill">Let’s Work Together</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-
         <section id="hero" class="hero section dark-background">
             <div class="video-background">
                 <video autoplay loop muted id="hero-video">
@@ -32,7 +13,7 @@
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-                        <h4>We Are</h4>
+                        <h4>Binary Brix Technologies</h4>
                         <h1 class="fs-1"><span>Software Development Company</span></h1>
 
                         <p>
@@ -45,7 +26,6 @@
                 </div>
             </div>
         </section>
-
 
         <section id=" services" class="services section">
             <div class="container section-title" data-aos="fade-up">
@@ -95,7 +75,7 @@
             </div>
         </section>
         <section id="stats" class="stats section">
-            
+
             <div class="container" data-aos="fade-up" data-aos-delay="50">
                 <div class="row gy-4">
 
@@ -140,10 +120,6 @@
             </div>
 
         </section>
-
-
-
-
         <div class="container section-title" data-aos="fade-up">
             <h2>Our Projects</h2>
         </div>
@@ -208,10 +184,7 @@
 
         </section>
 
-
-
         <section id="portfolio" class="portfolio section">
-
 
             <div class="container section-title" data-aos="fade-up">
                 <h2>Portfolio</h2>
@@ -234,103 +207,109 @@
                     </ul>
 
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="100">
-                        <!-- Mobile -->
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="assets/img/portfolios/mobileSpendSail.png" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>SpendSail Mobile Application</h4>
-
-
-                                <a href="{{ route('mobile-spendsail') }}" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div>
-
-                        <!-- Web -->
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="assets/img/portfolios/webTropicalBound.png" class="img-fluid" alt="">
-
-                            <div class="portfolio-info">
-                                <h4>Tropical Bound Web Application</h4>
-
-
-                                <a href="{{ route('web-tropical') }}" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div>
-
-
-
-
 
                         <!-- Mobile -->
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="assets/img/portfolios/mobileTropicalBound.png" class="img-fluid" alt="">
+                        <a href="{{ route('mobile-tropical') }}">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                                <img src="assets/img/portfolios/mobileTropicalBound.png" class="img-fluid"
+                                    alt="">
 
-                            <div class="portfolio-info">
-                                <h4>Tropical Bound Mobile Application</h4>
+                                <div class="portfolio-info">
+                                    <h4>Tropical Bound Mobile Application</h4>
 
-
-                                <a href="{{ route('mobile-tropical') }}" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                                    <a href="{{ route('mobile-tropical') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div>
-                        </div>
+                        </a>
+                        <!-- Web -->
+                        <a href="{{ route('web-tropical') }}">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                                <img src="assets/img/portfolios/webTropicalBound.png" class="img-fluid" alt="">
 
+                                <div class="portfolio-info">
+                                    <h4>Tropical Bound Web Application</h4>
 
+                                    <a href="{{ route('web-tropical') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Mobile -->
+                        <a href="{{ route('mobile-spendsail') }}">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                                <img src="assets/img/portfolios/mobileSpendSail.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>SpendSail Mobile Application</h4>
+
+                                    <a href="{{ route('mobile-spendsail') }}" title="More Details"
+                                        class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </a>
 
                         <!-- Web -->
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="assets/img/portfolios/webSpendsail.png" class="img-fluid" alt="">
+                        <a href="{{ route('web-spendsail') }}">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                                <img src="assets/img/portfolios/webSpendsail.png" class="img-fluid" alt="">
 
-                            <div class="portfolio-info">
-                                <h4>SpendSail Web Application </h4>
-                                <a href="{{ route('web-spendsail') }}" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                                <div class="portfolio-info">
+                                    <h4>SpendSail Web Application </h4>
+                                    <a href="{{ route('web-spendsail') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div>
-                        </div>
-
+                        </a>
 
                         {{-- Design --}}
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/designPortfolios/almmaz/7.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Almmaz</h4>
-                                <p>Branding Project</p>
-                                <a href="assets/img/designPortfolios/almmaz/7.jpg" title="Almmaz: Banding Project"
-                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="{{ route('design-almmaz') }}" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                        <a href="{{ route('design-almmaz') }}">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                                <img src="assets/img/designPortfolios/almmaz/7.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Almmaz</h4>
+                                    <p>Branding Project</p>
+                                    <a href="assets/img/designPortfolios/almmaz/7.jpg" title="Almmaz: Branding Project"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ route('design-almmaz') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/designPortfolios/crackedOutCoffee/8.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Cracked Out Coffee</h4>
-                                <p>Branding Project</p>
-                                <a href="assets/img/designPortfolios/crackedOutCoffee/8.jpg" title="Cracked Out Coffee: Branding Project"
-                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="{{ route('design-coffee') }}" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                        <a href="{{ route('design-coffee') }}">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                                <img src="assets/img/designPortfolios/crackedOutCoffee/8.jpg" class="img-fluid"
+                                    alt="">
+                                <div class="portfolio-info">
+                                    <h4>Cracked Out Coffee</h4>
+                                    <p>Branding Project</p>
+                                    <a href="assets/img/designPortfolios/crackedOutCoffee/8.jpg"
+                                        title="Cracked Out Coffee: Branding Project"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ route('design-coffee') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/designPortfolios/devWave/10.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Dev Wave</h4>
-                                <p>Branding Project</p>
-                                <a href="assets/img/designPortfolios/devWave/10.jpg" title="Dev Wave: Branding Project"
-                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="{{ route('design-devwave') }}" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                        <a href="{{ route('design-devwave') }}">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                                <img src="assets/img/designPortfolios/devWave/10.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Dev Wave</h4>
+                                    <p>Branding Project</p>
+                                    <a href="assets/img/designPortfolios/devWave/10.jpg"
+                                        title="Dev Wave: Branding Project" data-gallery="portfolio-gallery-branding"
+                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ route('design-devwave') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div>
-                        </div>
-
+                        </a>
                         {{-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                             <img src="assets/img/designPortfolios/thruwind.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
@@ -343,7 +322,6 @@
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div> --}}
-
 
                     </div>
                 </div>
@@ -489,7 +467,6 @@
 
         {{-- <section id="portfolio" class="portfolio section">
 
-
             <div class="container section-title" data-aos="fade-up">
                 <h2>Portfolio</h2>
                 <p><span>Check Our&nbsp;</span> <span class="description-title">Portfolio</span></p>
@@ -584,8 +561,6 @@
                         </div>
                     </div>
 
-
-
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                         <div class="team-member">
                             <div class="member-img">
@@ -597,26 +572,24 @@
                       <a href=""><i class="bi bi-linkedin"></i></a>
                     </div> --}}
                             </div>
-                            <div class="member-info">
+                            {{-- <div class="member-info">
                                 <h4>Umer Khaliq</h4>
                                 <span>Chief Technical Officer</span>
                             </div>
                         </div>
                     </div>
 
-
-
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                         <div class="team-member">
                             <div class="member-img">
                                 <img src="assets/img/team/default.jpg" class="img-fluid" alt="">
-                                {{-- <div class="social">
+                                <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> --}}
-                            </div>
+                </div>
+                            </div> --}}
                             <div class="member-info">
                                 <h4>Shaukat Ali</h4>
                                 <span>Admin Officer</span>
@@ -676,14 +649,8 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </div>
-
             </div>
-
         </section>
         <section id="faq" class="faq section">
             <div class="container section-title" data-aos="fade-up">
@@ -803,9 +770,7 @@
             </div>
         </section>
         <br>
-
     </main>
 @endsection
-
 @section('admininsertjavascript')
 @endsection

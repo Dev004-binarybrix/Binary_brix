@@ -133,6 +133,7 @@
 
 
                         {{-- Design --}}
+                        <a href="{{ route('design-almmaz') }}">
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                             <img src="assets/img/designPortfolios/almmaz/7.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
@@ -145,7 +146,9 @@
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
+                    </a>
 
+                    <a href="{{ route('design-coffee') }}">
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                             <img src="assets/img/designPortfolios/crackedOutCoffee/8.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
@@ -158,7 +161,7 @@
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-
+                    </a>
 
                     </div>
                 </div>

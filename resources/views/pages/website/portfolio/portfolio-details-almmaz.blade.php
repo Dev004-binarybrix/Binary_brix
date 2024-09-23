@@ -69,7 +69,7 @@
                                     <img src="assets/img/designPortfolios/almmaz/8.jpg" alt="">
                                 </div>
 
-                                 <div class="swiper-slide">
+                                <div class="swiper-slide">
                                     <img src="assets/img/designPortfolios/almmaz/11.jpg" alt="">
                                 </div>
 
@@ -91,7 +91,9 @@
                             <p>
                                 The Almaaz branding project involved designing a fresh and contemporary visual
                                 identity. The logo, color palette, and typography were carefully crafted to
-                                reflect the brand’s modern and sophisticated image. This new branding positions Almaaz prominently in its market, with every visual element aligning with its high standards and innovative spirit.
+                                reflect the brand’s modern and sophisticated image. This new branding positions Almaaz
+                                prominently in its market, with every visual element aligning with its high standards and
+                                innovative spirit.
                             </p>
                         </div>
                     </div>
@@ -131,20 +133,23 @@
 
 
                         {{-- Design --}}
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/designPortfolios/crackedOutCoffee/8.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Cracked Out Coffee</h4>
-                                <p>Branding Project</p>
-                                <a href="assets/img/designPortfolios/crackedOutCoffee/8.jpg" title="Branding 2"
-                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="{{ route('design-coffee') }}" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
+                        <a href="{{ route('design-coffee') }}">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                                <img src="assets/img/designPortfolios/crackedOutCoffee/8.jpg" class="img-fluid"
+                                    alt="">
+                                <div class="portfolio-info">
+                                    <h4>Cracked Out Coffee</h4>
+                                    <p>Branding Project</p>
+                                    <a href="assets/img/designPortfolios/crackedOutCoffee/8.jpg" title="Branding 2"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="{{ route('design-coffee') }}" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
                             </div>
-                        </div>
+                        </a>
 
+                        <a href="{{ route('design-devwave') }}">
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                             <img src="assets/img/designPortfolios/devWave/10.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
@@ -157,15 +162,12 @@
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-
+                    </a>
 
                     </div>
                 </div>
             </div>
         </section>
-
-
-
         @include('includes.website.contact')
 
     </main>

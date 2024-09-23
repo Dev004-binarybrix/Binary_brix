@@ -18,7 +18,7 @@
       </div>
     </div> --}}
 
-    <div class="container footer-top light-background">
+    <div class="container footer-top light-background" style="margin-left: 10rem !important">
         <div class="row gy-4">
             <div class="col-lg-4 col-md-6 footer-about">
                 <a href="{{ url('/') }}" class="d-flex align-items-center">
@@ -50,13 +50,8 @@
                     <li><i class="bi bi-chevron-right"></i> <a
                             href="https://binarybrix.com/hrm/web/index.php/recruitmentApply/jobs.html?v=1.0"
                             target="_blank">Careers</a></li>
-
-
-
-
                 </ul>
             </div>
-
             <div class="col-lg-3 col-md-4 footer-links">
                 <h4>Our Services</h4>
                 <ul>
@@ -66,8 +61,8 @@
                             Development</a></li>
                     <li><i class="bi bi-chevron-right"></i><a href="{{ route('mobile-application') }}">Mobile App
                             Development</a></li>
-                            <li><i class="bi bi-chevron-right"></i><a href="{{ route('high-tech-game') }}">Game
-                                Development</a></li>
+                    <li><i class="bi bi-chevron-right"></i><a href="{{ route('high-tech-game') }}">Game
+                            Development</a></li>
                     <li><i class="bi bi-chevron-right"></i><a href="{{ route('services') }}">More</a></li>
                 </ul>
             </div>
@@ -81,7 +76,7 @@
             <a href="https://www.linkedin.com/company/binarybrix/" target="blank"><i class="bi bi-linkedin"></i></a>
             <a href="https://wa.me/923122166633" target="_blank"><i class="bi bi-whatsapp"></i></a> --}}
 
-                    <li>
+                    {{-- <li>
                         <a href="https://www.facebook.com/binarybrix" target="_blank" data-toggle="tooltip" title="Follow us on Facebook">
                             <img src="./assets/img/facebook.png" alt="Facebook" style="width: 40px; height: 40px;">
                         </a>
@@ -100,7 +95,16 @@
                         <a href="https://wa.me/923122166633" target="_blank" data-toggle="tooltip" title="+92-4235963555">
                             <img src="./assets/img/whatsapp.png" alt="Whatsapp" style="width: 40px; height: 40px">
                         </a>
-                    </li>
+                    </li> --}}
+
+                    <a href="https://www.facebook.com/binarybrix" target="_blank" class="facebook"><i
+                            class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/binarybrix/" target="blank" class="instagram"><i
+                            class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/binarybrix/mycompany/" target="blank" class="linkedin"><i
+                            class="bi bi-linkedin"></i></a>
+                    <a href="https://wa.me/923122166633" target="_blank" class="whatsapp"><i
+                            class="bi bi-whatsapp"></i></a>
                 </div>
             </div>
 
@@ -115,7 +119,6 @@
 
 
 </footer>
-
 
 <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
@@ -182,5 +185,3 @@
         });
     });
 </script>
-
-
