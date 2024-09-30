@@ -12,7 +12,7 @@
                 <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
                     <h1 class="fs-1"><span class="text-white">Game Development</span></h1>
                     <p>
-                        Exciting and innovative games for mobile and various other platforms.
+                        Exciting and innovative games <span class="d-none d-sm-inline"> for mobile and various other platforms.<span>
                     </p>
                     <div class="d-flex mt-5">
                         <a href="#contact" class="btn-get-started fw-bold rounded-pill">Get a Quote</a>

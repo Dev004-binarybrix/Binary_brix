@@ -47,7 +47,6 @@
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-
             <div class="col-lg-7">
                 <form id="contactForm" action="{{ route('contact.send') }}" method="post" class="php-email-form"
                     data-aos="fade-up" data-aos-delay="200">
@@ -56,32 +55,37 @@
 
                         <div class="col-md-6">
                             <label for="name-field" class="pb-2"><strong>Your Name</strong></label>
-                            <input type="text" name="name" id="name-field" class="form-control" required="">
+                            <input type="text" name="name" id="name-field" class="form-control required"
+                                required="">
                         </div>
 
                         <div class="col-md-6">
                             <label for="email-field" class="pb-2"><strong>Your Email</strong></label>
-                            <input type="email" class="form-control" name="email" id="email-field" required="">
+                            <input type="email" class="form-control required" name="email" id="email-field"
+                                required="">
                         </div>
                         <div class="col-md-6">
                             <label for="subject-field" class="pb-2"><strong>Phone Number</strong></label>
-                            <input type="text" class="form-control" name="phone" id="phone" required=""
-                                oninput="validateNumber(this)">
+                            <input type="text" class="form-control required" name="phone" id="phone"
+                                required="" oninput="validateNumber(this)">
                         </div>
                         <div class="col-md-6">
                             <label for="name-field" class="pb-2"><strong>Company</strong></label>
-                            <input type="text" name="company" id="company" class="form-control" required="">
+                            <input type="text" name="company" id="company" class="form-control required"
+                                required="">
 
                         </div>
                         <div class="col-md-6">
                             <label for="subject-field" class="pb-2"><strong>Job Title</strong></label>
-                            <input type="text" class="form-control" name="job" id="job" required="">
+                            <input type="text" class="form-control required" name="job" id="job"
+                                required="">
                         </div>
 
                         <div class="col-md-6">
                             <label for="subject-field" class="pb-2"><strong>How did you hear about Binary
                                     Brix?</strong></label>
-                            <select class="form-control" name="hear_about_us" id="hear_about_us" required="">
+                            <select class="form-control required" name="hear_about_us" id="hear_about_us"
+                                required="">
                                 <option value="" disabled selected><strong>Choose an option</strong></option>
                                 <option value="bank">Bank</option>
                                 <option value="network">Network</option>
@@ -95,7 +99,11 @@
                         <div class="col-md-12">
                             <label for="message-field" class="pb-2"><strong>Additional Information you would like us
                                     to know</strong></label>
-                            <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                            <textarea class="form-control required" name="message" rows="10" id="message-field" required=""></textarea>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.site_key') }}"></div>
                         </div>
 
                         <div class="col-md-12 text-center">
@@ -118,57 +126,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-
-{{-- <script>
-    $(document).ready(function() {
-        $('#contactForm').submit(function(e) {
-            e.preventDefault();
-
-            var form = $(this);
-            var loadingElement = $('.loading');
-            var errorMessageElement = $('.error-message');
-            var sentMessageElement = $('.sent-message');
-
-            loadingElement.show();
-            errorMessageElement.hide();
-            sentMessageElement.hide();
-
-            $.ajax({
-                type: form.attr('method'),
-                url: form.attr('action'),
-                data: form.serialize(),
-                success: function(response) {
-
-                    $('.loading').removeClass('d-block');
-
-                    if (response.success) {
-                        sentMessageElement.text(response.message).show();
-
-                        setTimeout(function() {
-                            sentMessageElement.fadeOut();
-                        }, 2000);
-
-                        form[0].reset();
-                    } else {
-                        loadingElement.hide();
-                        errorMessageElement.text(response.message);
-                        errorMessageElement.show();
-                    }
-                },
-                error: function() {
-
-                    $('.loading').removeClass('d-block');
-
-                    errorMessageElement.text('An error occurred. Please try again later.')
-                        .show();
-
-                }
-            });
-
-        });
-    });
-</script> --}}
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <script>
     $(document).ready(function() {
@@ -179,10 +137,13 @@
             var loadingElement = $('.loading');
             loadingElement.addClass('d-block');
 
+            var recaptchaResponse = grecaptcha.getResponse();
+            var formData = form.serialize() + '&recaptcha=' + recaptchaResponse;
+
             $.ajax({
                 type: form.attr('method'),
                 url: form.attr('action'),
-                data: form.serialize(),
+                data: formData,
                 success: function(response) {
                     loadingElement.removeClass('d-block');
 

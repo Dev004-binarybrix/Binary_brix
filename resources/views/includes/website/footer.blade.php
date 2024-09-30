@@ -18,7 +18,7 @@
       </div>
     </div> --}}
 
-    <div class="container footer-top light-background" style="margin-left: 10rem !important">
+    <div class="container footer-top light-background">
         <div class="row gy-4">
             <div class="col-lg-4 col-md-6 footer-about">
                 <a href="{{ url('/') }}" class="d-flex align-items-center">
@@ -142,6 +142,7 @@
 <script src="{{ asset('assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
 <script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
 <script src="{{ asset('assets/js/main.js') }}"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <script src="{{ asset('assets/vendor/jquery/jquery.min.js') }}"></script> <!-- Make sure jQuery is loaded first -->
 <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script> <!-- Bootstrap JS should be loaded after jQuery -->
@@ -154,6 +155,10 @@
                 "hide": 0
             }
         });
+    });
+    $(document).on('click', '.ancher', function() {
+        $('this').removeClass('active');
+        $(this).addClass('active');
     });
 </script>
 
@@ -181,6 +186,14 @@
             delay: {
                 "show": 0,
                 "hide": 0
+            }
+        });
+
+        $(window).on('scroll', function() {
+            if ($(this).scrollTop() > 0) {
+                $('.mobile-nav-toggle').removeClass('text-white');
+            } else {
+                $('.mobile-nav-toggle').addClass('text-white');
             }
         });
     });

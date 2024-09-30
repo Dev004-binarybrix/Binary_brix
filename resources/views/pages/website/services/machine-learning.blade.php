@@ -11,9 +11,9 @@
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-                    <h1 class="fs-1"><span class="text-white">Artificial Intelligence & Machine Learning</span></h1>
-                    <p>
-                        Enhance customer interactions with intelligent, responsive chatbots.
+                    <h1 class="fs-1"><span class="text-white d-sm-Artificial">Artificial Intelligence & Machine Learning</span></h1>
+                    <p style="font-size: 13px;">
+                        Enhance customer interactions <span class="d-none d-sm-inline">with intelligent, responsive chatbots.</span>
                     </p>
                     <div class="d-flex mt-5">
                         <a href="#contact" class="btn-get-started fw-bold rounded-pill">Get a Quote</a>

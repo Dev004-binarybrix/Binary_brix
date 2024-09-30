@@ -50,34 +50,34 @@
                             </a>
                         </li> --}}
 
-                        <li><a href="{{ url('/') }}" class="active">Home</a></li>
+                        <li><a href="{{ url('/') }}" class="active ancher">Home</a></li>
                         <li class="dropdown"><a href="{{ url('/services') }}"><span>Services</span> <i
                                     class="bi bi-chevron-down toggle-dropdown"></i></a>
-                            <ul>
+                           <ul style="overflow-x:hidden">
                                 <li class="nav-item"><a href="{{ route('custom-software') }}"><i class="bi bi-gear"></i>
-                                        Custom Software Development</a></li>
+                                        Custom Software &nbsp;<span class="d-none d-sm-inline">Development</span></a></li>
                                 <li class="nav-item"><a href="{{ route('web-application') }}"><i
-                                            class="bi bi-browser-chrome"></i> Web Application Development</a></li>
+                                            class="bi bi-browser-chrome"></i> Web Application &nbsp;<span class="d-none d-sm-inline">Development </span></a></li>
                                 <li class="nav-item"><a href="{{ route('mobile-application') }}"><i
                                             class="bi bi-phone"></i>
-                                        Mobile Application Development</a></li>
+                                        Mobile Application &nbsp;<span class="d-none d-sm-inline">Development </span></a></li>
                                 <li class="nav-item"><a href="{{ route('high-tech-game') }}"><i
-                                            class="bi bi-controller"></i> High-Tech Game Development</a></li>
+                                            class="bi bi-controller"></i> High-Tech Game &nbsp;<span class="d-none d-sm-inline">Development </span></a></li>
                                 <li class="nav-item"><a href="{{ route('cloud-based') }}"><i class="bi bi-cloud"></i>
-                                        Cloud-Based Development</a></li>
+                                        Cloud-Based &nbsp;<span class="d-none d-sm-inline">Development </span></a></li>
                                 <li class="nav-item"><a href="{{ route('dev-ops') }}"><i class="bi bi-tools"></i> DevOps
-                                        Development</a></li>
+                                         &nbsp;<span class="d-none d-sm-inline">Development</span></a></li>
                                 <li class="nav-item"><a href="{{ route('e-commerce') }}"><i class="bi bi-cart"></i>
-                                        E-commerce Development</a></li>
+                                        E-commerce &nbsp;<span class="d-none d-sm-inline"> Development <span></a></li>
                                 <li class="nav-item"><a href="{{ route('ui-ux-design') }}"><i
                                             class="bi bi-palette"></i>
-                                        UI/UX Design and Development</a></li>
+                                        UI/UX Design and &nbsp;<span class="d-none d-sm-inline">Development </span></a></li>
                                 <li class="nav-item"><a href="{{ route('iot-development') }}"><i
                                             class="bi bi-wifi"></i>
                                         IoT Development</a></li>
                                 <li class="nav-item"><a href="{{ route('machine-learning') }}"><i
                                             class="bi bi-robot"></i>
-                                        Artificial Intelligence & Machine Learning</a></li>
+                                        Artificial Intelligence &nbsp;<span class="d-none d-sm-inline">& Machine Learning</span></a></li>
                                 <li class="nav-item"><a href="{{ route('expert-qa-testing') }}"><i
                                             class="bi bi-check-circle"></i> Expert QA Testing</a></li>
 
@@ -86,7 +86,7 @@
                         <li><a href="{{ url('/') }}#portfolio">Portfolio</a></li>
                         <li class="dropdown"><a href="{{ url('/') }}#about"><span>Company</span> <i
                                     class="bi bi-chevron-down toggle-dropdown"></i></a>
-                            <ul>
+                          <ul style="overflow-x:hidden">
                                 <li class="nav-item"><a
                                         href="https://binarybrix.com/hrm/web/index.php/recruitmentApply/jobs.html?v=1.0"><i
                                             class="bi bi-briefcase"></i>Career</a></li>
@@ -101,8 +101,8 @@
                                             class="bi bi-info-circle"></i>
                                         About Us</a></li>
 
-                                <li class="nav-item"><a href="{{ url('/') }}#team"><i class="bi bi-people"></i>
-                                        Higher Management</a></li>
+                                {{--<li class="nav-item"><a href="{{ url('/') }}#team"><i class="bi bi-people"></i>
+                                        Higher Management</a></li>--}}
                                 {{-- <li class="nav-item"><a href="{{ url('/') }}#contact"><i
                                     class="bi bi-envelope"></i>Contact Us</a></li> --}}
                             </ul>
@@ -110,7 +110,7 @@
                         <li><a href="{{ url('/') }}#contact">Contact Us</a></li>
                         {{-- <li><a href="{{ url('/') }}#team">Higher Management</a></li> --}}
                     </ul>
-                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list text-white"></i>
                 </nav>
             </div>
         </div>

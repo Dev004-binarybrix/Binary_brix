@@ -12,7 +12,7 @@
                 <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
                     <h1 class="fs-1 "><span class="text-white">Cloud Based Development</span></h1>
                     <p>
-                        Designed to optimize your business performance.
+                        Designed to optimize your  <span class="d-none d-sm-inline">business performance.</span>
                     </p>
 
                     <div class="d-flex mt-5">

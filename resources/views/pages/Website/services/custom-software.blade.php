@@ -14,7 +14,7 @@
                 <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
                     <h1 class="fs-1"><span class="text-white">Custom Software Development</span></h1>
                     <p>
-                        Comprehensive software development services
+                        Comprehensive software<span class="d-none d-sm-inline"> development services.</span>
                     </p>
                     <div class="d-flex mt-5">
                         <a href="#contact" class="btn-get-started fw-bold rounded-pill">Get a Quote</a>

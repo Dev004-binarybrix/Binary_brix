@@ -17,7 +17,7 @@
                 <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
                     <h1 class="fs-1"><span class="text-white">UI/UX Design And Development</span></h1>
                     <p>
-                        Intuitive interfaces that drive user engagement and conversions.
+                        Intuitive interfaces that drive user<span class="d-none d-sm-inline"> engagement and conversions.<span>
                     </p>
                     <div class="d-flex mt-5">
                         <a href="#contact" class="btn-get-started fw-bold rounded-pill">Get a Quote</a>

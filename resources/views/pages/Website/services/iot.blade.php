@@ -11,8 +11,8 @@
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-                    <h1 class="fs-1"><span class="text-white">(IOT) Internet Of Things Development</span></h1>
-                    <p>
+                    <h1 class="fs-1"><span class="text-white d-sm-Artificial">(IOT) Internet Of Things Development</span></h1>
+                    <p style="font-size: 13px;">
                         Our expert IoT developers cater to your unique
                         requirements
                     </p>

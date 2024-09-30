@@ -14,7 +14,7 @@
                     <h1 class="fs-1"><span class="text-white">Quality Assurance And Testing</span></h1>
                     <p>
                         We meticulously
-                        examine every system to ensure thorough testing
+                        examine every<span class="d-none d-sm-inline"> system to ensure thorough testing.</span>
                     </p>
                     <div class="d-flex mt-5">
                         <a href="#contact" class="btn-get-started fw-bold rounded-pill">Get a Quote</a>
