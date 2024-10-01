@@ -46,7 +46,7 @@
                     <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}">Home</a></li>
                     <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#about">About us</a></li>
                     <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#portfolio">Portfolio</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#services">Services</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ route('services') }}">Services</a></li>
                     <li><i class="bi bi-chevron-right"></i> <a
                             href="https://binarybrix.com/hrm/web/index.php/recruitmentApply/jobs.html?v=1.0"
                             target="_blank">Careers</a></li>
