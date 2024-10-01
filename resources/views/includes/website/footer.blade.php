@@ -98,16 +98,18 @@
                     </li> --}}
 
                     <a href="https://www.facebook.com/binarybrix" target="_blank" class="facebook"><i
-                            class="bi bi-facebook"></i></a>
+                            class="bi bi-facebook"
+                            style="font-size: 22px; padding-right: 10px;"></i></a>
                     <a href="https://www.instagram.com/binarybrix/" target="blank" class="instagram"><i
-                            class="bi bi-instagram"></i></a>
+                            class="bi bi-instagram"
+                            style="font-size: 22px;padding-right: 10px;"></i></a>
                     <a href="https://www.linkedin.com/company/binarybrix/mycompany/" target="blank" class="linkedin"><i
-                            class="bi bi-linkedin"></i></a>
-                    <a href="https://wa.me/923122166633" target="_blank" class="whatsapp"><i
-                            class="bi bi-whatsapp"></i></a>
+                            class="bi bi-linkedin"
+                            style="font-size: 22px; padding-right: 10px;"></i></a>
+                    <a href="https://wa.me/923122166633" target="_blank" class="whatsapp"><i class="bi bi-whatsapp"
+                            style="font-size: 22px;padding-right: 10px;"></i></a>
                 </div>
             </div>
-
         </div>
     </div>
 

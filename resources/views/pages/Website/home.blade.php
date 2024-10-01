@@ -529,9 +529,7 @@
 
         </section>
 
-        <section id="team" class="team section light-background">
-
-
+        {{-- <section id="team" class="team section light-background">
             <div class="container section-title" data-aos="fade-up">
                 <h2> Our Team</h2>
                 <p><span>Our Hardworking</span> <span class="description-title">Team</span></p>
@@ -547,12 +545,12 @@
                         <div class="team-member">
                             <div class="member-img">
                                 <img src="assets/img/team/default.jpg" class="img-fluid" alt="">
-                                {{-- <div class="social">
+                             <div class="social">
                       <a href=""><i class="bi bi-twitter-x"></i></a>
                       <a href=""><i class="bi bi-facebook"></i></a>
                       <a href=""><i class="bi bi-instagram"></i></a>
                       <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div> --}}
+                    </div> 
                             </div>
                             <div class="member-info">
                                 <h4>Muhammad Shahbaz Yousaf</h4>
@@ -565,14 +563,14 @@
                         <div class="team-member">
                             <div class="member-img">
                                 <img src="assets/img/team/default.jpg" class="img-fluid" alt="">
-                                {{-- <div class="social">
+                             <div class="social">
                       <a href=""><i class="bi bi-twitter-x"></i></a>
                       <a href=""><i class="bi bi-facebook"></i></a>
                       <a href=""><i class="bi bi-instagram"></i></a>
                       <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div> --}}
+                    </div>
                             </div>
-                            {{-- <div class="member-info">
+                            <div class="member-info">
                                 <h4>Umer Khaliq</h4>
                                 <span>Chief Technical Officer</span>
                             </div>
@@ -589,7 +587,7 @@
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
-                            </div> --}}
+                            </div> 
                             <div class="member-info">
                                 <h4>Shaukat Ali</h4>
                                 <span>Admin Officer</span>
@@ -605,7 +603,7 @@
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> --}}
+                </div>
                             </div>
                             <div class="member-info">
                                 <h4>Shezil Khan</h4>
@@ -623,7 +621,7 @@
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> --}}
+                </div> 
                             </div>
                             <div class="member-info">
                                 <h4>Zumra Majeed</h4>
@@ -641,7 +639,7 @@
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> --}}
+                </div>
                             </div>
                             <div class="member-info">
                                 <h4>Hania Mazhar Dar</h4>
@@ -651,7 +649,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
+
+
+
         <section id="faq" class="faq section">
             <div class="container section-title" data-aos="fade-up">
                 <h2>F.A.Q</h2>
