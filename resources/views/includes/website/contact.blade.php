@@ -154,9 +154,10 @@
                             text: response.message,
                             timer: 2000,
                             showConfirmButton: false
+                        }).then(function() {
+                            window.location
+                        .reload(); // Reload the page after the alert
                         });
-
-                        form[0].reset();
                     } else if (response.errors) {
                         let errorMessages = '';
                         $.each(response.errors, function(field, messages) {
