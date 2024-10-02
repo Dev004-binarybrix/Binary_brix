@@ -79,7 +79,7 @@
                                             class="bi bi-robot"></i>
                                         Artificial Intelligence &nbsp;<span class="d-none d-sm-inline">& Machine Learning</span></a></li>
                                 <li class="nav-item"><a href="{{ route('expert-qa-testing') }}"><i
-                                            class="bi bi-check-circle"></i> Expert QA Testing</a></li>
+                                            class="bi bi-check-circle"></i>Expert QA Testing</a></li>
 
                             </ul>
                         </li>

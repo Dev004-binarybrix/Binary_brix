@@ -17,7 +17,7 @@
                         <h1 class="fs-1"><span>Software Development Company</span></h1>
 
                         <p>
-                            Blending strategic insights and designs with brilliant engineering
+                            Blending strategic insights and designs<span class="d-none d-sm-inline"> with brilliant engineering.</span>
                         </p>
                         <div class="d-flex mt-4">
                             <a href="#contact" class="btn-get-started fw-bold rounded-pill">Let’s Work Together</a>
@@ -161,21 +161,21 @@
             }
           </script>
                     <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid small-screen"
                                 alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid small-screen"
                                 alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid small-screen"
                                 alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid small-screen"
                                 alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid small-screen"
                                 alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid small-screen"
                                 alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid small-screen"
                                 alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid"
+                        <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid small-screen"
                                 alt=""></div>
                     </div>
                 </div>
