@@ -6,11 +6,12 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Binary Brix</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+    <meta content="Leading software development company offering mobile app development, web solutions, AI integration, game development, e-commerce platforms, UI/UX design, DevOps, and cloud development services tailored to your business needs." name="description">
+    <meta content="software development, mobile app development, web development, AI services, game development, e-commerce development, UI/UX design, DevOps, cloud development, custom software solutions" name="keywords">
+
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
-    <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('assets/img/favicon.ico') }}" rel="icon" type="image/x-icon">
+    {{-- <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon"> --}}
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
     <link
