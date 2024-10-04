@@ -6,7 +6,7 @@
                     <img src="./assets/img/brixLogo.png" height="50px" alt="Logo" class="mb-3">
                 </a>
             </div>
-        </div>        
+        </div>
         <div class="row">
             <div class="col-lg-3 col-md-6 footer-about">
                 <h4 class="text-uppercase">Contact</h4>
@@ -51,7 +51,7 @@
                     <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}">Home</a></li>
                     <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#about">About Us</a></li>
                     <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#portfolio">Portfolio</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/') }}#services">Services</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="{{ url('/services') }}">Services</a></li>
                     <li><i class="bi bi-chevron-right"></i> <a
                             href="https://binarybrix.com/hrm/web/index.php/recruitmentApply/jobs.html?v=1.0"
                             target="_blank">Careers</a></li>
