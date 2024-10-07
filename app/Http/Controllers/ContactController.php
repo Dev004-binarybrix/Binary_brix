@@ -28,7 +28,7 @@ class ContactController extends Controller
             ]);
 
             // ContactInfo::create($data);
-            Mail::to('ummyhabiba999@gmail.com')->send(new ContactMail($data));
+            Mail::to('info@binarybrix.com')->send(new ContactMail($data));
 
             return response()->json(['success' => true, 'message' => 'Thank you for contacting us!']);
         } catch (ValidationException $e) {

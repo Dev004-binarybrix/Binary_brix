@@ -31,7 +31,7 @@ class ContactMail extends Mailable
 {
     return new Envelope(
         subject: 'BinaryBrix-Support - ',
-        from: new Address('info@binarybrix.com', 'Support Team')
+        from: new Address('sales@binarybrix.com', 'Support Team')
     );
 }
     /**
