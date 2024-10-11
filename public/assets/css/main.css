@@ -2153,6 +2153,8 @@ section,
     height: 200px;
 }
 
+
+
 @media (max-width: 575.98px) {
     .g-recaptcha {
         transform: scale(0.85);
@@ -2221,7 +2223,7 @@ section,
     }
 
     .border-bottom {
-        border-bottom: 2px solid white;
+        border-bottom: 1px solid white;
         margin-top: 5px;
         width: 175px !important;
     }
