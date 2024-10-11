@@ -88,3 +88,9 @@ Route::get('/design-devWave', function() {
 
 //Contact Us Form
 Route::post('/contact/send', [ContactController::class, 'contactMail'])->name('contact.send');
+
+// blog posts
+
+Route::get('/pink-ribbon', function() {
+    return view('pages.website.blogs.blog-pink-ribbon');
+})->name('pink-ribbon');

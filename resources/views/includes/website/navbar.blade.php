@@ -107,6 +107,7 @@
                                     class="bi bi-envelope"></i>Contact Us</a></li> --}}
                             </ul>
                         </li>
+                        <li><a href="{{ url('/') }}#blog">Blog</a></li>
                         <li><a href="{{ url('/') }}#contact">Contact Us</a></li>
                         {{-- <li><a href="{{ url('/') }}#team">Higher Management</a></li> --}}
                     </ul>

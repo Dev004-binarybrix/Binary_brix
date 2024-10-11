@@ -81,7 +81,7 @@
     </div>
 
     <div class="container copyright text-center text-white">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">BinaryBrix Pvt Ltd</strong> <span>All Rights Reserved.</span></p>
+        <p><span>Copyright</span> © 2018-2014 <strong class="px-1 sitename">BinaryBrix Pvt Ltd</strong> <span>All Rights Reserved.</span></p>
     </div>
 </footer>
 
@@ -108,8 +108,8 @@
 <script src="{{ asset('assets/js/main.js') }}"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<script src="{{ asset('assets/vendor/jquery/jquery.min.js') }}"></script> <!-- Make sure jQuery is loaded first -->
-<script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script> <!-- Bootstrap JS should be loaded after jQuery -->
+<script src="{{ asset('assets/vendor/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script> 
 
 <script>
     $(document).ready(function() {

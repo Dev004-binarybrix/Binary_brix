@@ -2,6 +2,8 @@
 <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
 @section('content')
     @include('includes.website.navbar')
+
+
     <main class="main">
         <section id="hero" class="hero section dark-background">
             <div class="video-background">
@@ -17,7 +19,8 @@
                         <h1 class="fs-1"><span>Software Development Company</span></h1>
 
                         <p>
-                            Blending strategic insights and designs<span class="d-none d-sm-inline"> with brilliant engineering.</span>
+                            Blending strategic insights and designs<span class="d-none d-sm-inline"> with brilliant
+                                engineering.</span>
                         </p>
                         <div class="d-flex mt-4">
                             <a href="#contact" class="btn-get-started fw-bold rounded-pill">Let’s Work Together</a>
@@ -165,18 +168,18 @@
                                 alt=""></div>
                         <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid small-screen"
                                 alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid small-screen"
-                                alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid small-screen"
-                                alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid small-screen"
-                                alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid small-screen"
-                                alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid small-screen"
-                                alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid small-screen"
-                                alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/client-3.png"
+                                class="img-fluid small-screen" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/client-4.png"
+                                class="img-fluid small-screen" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/client-5.png"
+                                class="img-fluid small-screen" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/client-6.png"
+                                class="img-fluid small-screen" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/client-7.png"
+                                class="img-fluid small-screen" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/client-8.png"
+                                class="img-fluid small-screen" alt=""></div>
                     </div>
                 </div>
 
@@ -190,7 +193,6 @@
                 <h2>Portfolio</h2>
                 <p><span>Check Our&nbsp;</span> <span class="description-title">Portfolio</span></p>
             </div>
-
             <div class="container">
 
                 <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
@@ -205,9 +207,7 @@
                         <li data-filter=".filter-product">Web</li>
                         <li data-filter=".filter-branding">Design</li>
                     </ul>
-
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="100">
-
                         <!-- Mobile -->
                         <a href="{{ route('mobile-tropical') }}">
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
@@ -248,7 +248,6 @@
                                 </div>
                             </div>
                         </a>
-
                         <!-- Web -->
                         <a href="{{ route('web-spendsail') }}">
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
@@ -261,9 +260,7 @@
                                 </div>
                             </div>
                         </a>
-
                         {{-- Design --}}
-
                         <a href="{{ route('design-almmaz') }}">
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                                 <img src="assets/img/designPortfolios/almmaz/7.jpg" class="img-fluid" alt="">
@@ -310,18 +307,6 @@
                                 </div>
                             </div>
                         </a>
-                        {{-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/designPortfolios/thruwind.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Thruwind</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/designPortfolios/thruwind.jpg" title="Branding 2"
-                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div> --}}
 
                     </div>
                 </div>
@@ -465,13 +450,6 @@
         </section>
         @include('includes.website.contact')
 
-        {{-- <section id="portfolio" class="portfolio section">
-
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Portfolio</h2>
-                <p><span>Check Our&nbsp;</span> <span class="description-title">Portfolio</span></p>
-            </div> --}}
-
         <section id="about" class="about section">
             <div class="container section-title" data-aos="fade-up">
                 <h2>About Us</h2>
@@ -514,7 +492,6 @@
                                     </div>
                                 </li>
                             </ul>
-
                             <p>
                                 <a href="{{ url('/') }}#contact">Contact us</a> to learn more about our services and
                                 how we can assist you in achieving your goals.
@@ -528,131 +505,6 @@
             </div>
 
         </section>
-
-        {{-- <section id="team" class="team section light-background">
-            <div class="container section-title" data-aos="fade-up">
-                <h2> Our Team</h2>
-                <p><span>Our Hardworking</span> <span class="description-title">Team</span></p>
-
-            </div>
-
-            <div class="container">
-
-                <div class="row gy-4">
-
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="assets/img/team/default.jpg" class="img-fluid" alt="">
-                             <div class="social">
-                      <a href=""><i class="bi bi-twitter-x"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div> 
-                            </div>
-                            <div class="member-info">
-                                <h4>Muhammad Shahbaz Yousaf</h4>
-                                <span>Chief Executive Officer</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="assets/img/team/default.jpg" class="img-fluid" alt="">
-                             <div class="social">
-                      <a href=""><i class="bi bi-twitter-x"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Umer Khaliq</h4>
-                                <span>Chief Technical Officer</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="assets/img/team/default.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-                            </div> 
-                            <div class="member-info">
-                                <h4>Shaukat Ali</h4>
-                                <span>Admin Officer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="">
-                                {{-- <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Shezil Khan</h4>
-                                <span>HR Manager</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                                {{-- <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> 
-                            </div>
-                            <div class="member-info">
-                                <h4>Zumra Majeed</h4>
-                                <span>HR Executive</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                                {{-- <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Hania Mazhar Dar</h4>
-                                <span>Project Manager</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-
-
-
         <section id="faq" class="faq section">
             <div class="container section-title" data-aos="fade-up">
                 <h2>F.A.Q</h2>
@@ -770,6 +622,87 @@
                 </div>
             </div>
         </section>
+
+        {{-- blog section --}}
+
+
+        <section id="blog" class="blog section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Our Blog</h2>
+                <p><span>Discover Insights on Our </span> <span class="description-title">Blog!</span></p>
+            </div>
+            <div class="container">
+
+                <div class="row">
+                    <div id="blogCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Carousel Inner -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active mb-5">
+                                <div class="row justify-content-center">
+                                    <!-- Blog Card 1 -->
+                                    <div class="col-md-4">
+                                        <a href="{{ route('pink-ribbon') }}" class="card-link">
+                                            <div class="card">
+
+                                                <img src="assets/img/blog/2.jpg" class="card-img-top p-3"
+                                                    alt="Blog image 1">
+
+                                                <div class="card-body">
+                                                    <p class="text-muted">By <strong>Admin</strong></p>
+                                                    <h5 class="card-title">Tech Women, Stronger Together Against Breast Cancer!</h5>
+                                                    <p class="card-text">For women in tech, balancing health and a demanding career adds an extra layer of complexity. Here's how you can navigate this journey with strength and support....</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <!-- Blog Card 2 -->
+                                    {{-- <div class="col-md-4">
+                                    <a href="{{ route('pink-ribbon') }}" class="card-link">
+                                        <div class="card">
+
+                                            <img src="assets/img/blog/1.jpg" class="card-img-top p-3" alt="Blog image 2">
+
+                                            <div class="card-body">
+                                                <p class="text-muted">By <strong>Admin</strong></p>
+                                                <h5 class="card-title">What is OpenAI? ChatGPT Technology Manufacturing Company</h5>
+                                                <p class="card-text">Discussing the world of today’s technology seems more important than ever...</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div> --}}
+
+                                    <!-- Blog Card 3 -->
+                                    {{-- <div class="col-md-4">
+                                    <a href="your-link-3.html" class="card-link">
+                                        <div class="card">
+                                            <img src="path_to_image_3.jpg" class="card-img-top" alt="Blog image 3">
+                                            <div class="card-body">
+                                                <p class="text-muted">By <strong>Admin</strong></p>
+                                                <h5 class="card-title">The Role of Artificial Intelligence in the Business World</h5>
+                                                <p class="card-text">The development of artificial intelligence (AI) technology will make it increasingly easy...</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> --}}
+                                    <!-- Additional carousel-item blocks for more slides can go here -->
+                                    <!-- Carousel Controls -->
+                                    {{-- <button class="carousel-control-prev" type="button" data-bs-target="#blogCarousel"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#blogCarousel"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button> --}}
+                                </div>
+                            </div>
+                        </div>
+        </section>
+
+
         <br>
     </main>
 @endsection
