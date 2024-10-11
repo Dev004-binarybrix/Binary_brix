@@ -376,6 +376,8 @@ h6 {
         margin-right: 10px;
         cursor: pointer;
         transition: color 0.3s;
+        position : absolute;
+		right  : 10px;
     }
     .navmenu {
         padding: 0;
